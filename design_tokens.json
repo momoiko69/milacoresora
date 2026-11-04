@@ -1,0 +1,434 @@
+{
+  "CyberpunkNeonGlossy": {
+    "meta": {
+      "generator": "Sora Theme Engine v2.0",
+      "theme_id": "CyberpunkNeonGlossy",
+      "theme_name": "Cyberpunk Neon Glossy",
+      "category": "MilaUniverse"
+    },
+    "color": {
+      "background": {
+        "$value": "#08090d",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#12141f",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(18, 20, 31, 0.75)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(0, 242, 254, 0.25)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#00f2fe",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(0, 242, 254, 0.4)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#f72585",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(247, 37, 133, 0.4)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#fee440",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "16px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "12px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(0, 242, 254, 0.15)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "LiquidGlassTahoe": {
+    "meta": {
+      "generator": "Sora Theme Engine v2.0",
+      "theme_id": "LiquidGlassTahoe",
+      "theme_name": "Liquid Glass Tahoe (macOS Tahoe Dark)",
+      "category": "MilaUniverse"
+    },
+    "color": {
+      "background": {
+        "$value": "#05070e",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#0d1322",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(13, 19, 34, 0.65)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(255, 255, 255, 0.12)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#38bdf8",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(56, 189, 248, 0.35)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#6366f1",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(99, 102, 241, 0.35)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#0ea5e9",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#ffffff",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#a0aec0",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#020617",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "24px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "16px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 12px 40px 0 rgba(0, 0, 0, 0.45)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "DemonSlayerMatte": {
+    "meta": {
+      "generator": "Sora Theme Engine v2.0",
+      "theme_id": "DemonSlayerMatte",
+      "theme_name": "Demon Slayer Matte",
+      "category": "MilaUniverse"
+    },
+    "color": {
+      "background": {
+        "$value": "#0c0a09",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#1c1917",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(28, 25, 23, 0.8)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(225, 29, 72, 0.3)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#e11d48",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(225, 29, 72, 0.4)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#0d9488",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(13, 148, 136, 0.4)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#f59e0b",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#fafaf9",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#78716c",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0c0a09",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "8px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "8px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 4px 20px 0 rgba(225, 29, 72, 0.15)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "IronManGlossy": {
+    "meta": {
+      "generator": "Sora Theme Engine v2.0",
+      "theme_id": "IronManGlossy",
+      "theme_name": "Iron Man Mark-LV Glossy",
+      "category": "MilaUniverse"
+    },
+    "color": {
+      "background": {
+        "$value": "#0a0305",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#18060a",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(24, 6, 10, 0.75)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(234, 179, 8, 0.3)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#eab308",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(234, 179, 8, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#dc2626",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(220, 38, 38, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#06b6d4",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#fef08a",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#fca5a5",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#450a0a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "14px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "10px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 30px 0 rgba(234, 179, 8, 0.2)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "TheMatrixMatte": {
+    "meta": {
+      "generator": "Sora Theme Engine v2.0",
+      "theme_id": "TheMatrixMatte",
+      "theme_name": "The Matrix Digital Rain",
+      "category": "MilaUniverse"
+    },
+    "color": {
+      "background": {
+        "$value": "#020402",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#050f07",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(5, 15, 7, 0.85)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(34, 197, 94, 0.25)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#22c55e",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(34, 197, 94, 0.5)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#10b981",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(16, 185, 129, 0.4)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#86efac",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#dcfce7",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#4ade80",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#022c22",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "10px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "4px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 0 25px rgba(34, 197, 94, 0.25)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "ObsidianNeon": {
+    "meta": {
+      "generator": "Sora Theme Engine v2.0",
+      "theme_id": "ObsidianNeon",
+      "theme_name": "MilaCore Obsidian Neon (Default)",
+      "category": "MilaCoreCore"
+    },
+    "color": {
+      "background": {
+        "$value": "#0a0b10",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#121420",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(18, 20, 32, 0.7)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(147, 51, 234, 0.25)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#a855f7",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(168, 85, 247, 0.4)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#06b6d4",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(6, 182, 212, 0.4)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#f43f5e",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f1f5f9",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#64748b",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "20px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "14px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 10px 35px 0 rgba(168, 85, 247, 0.18)",
+        "$type": "dimension"
+      }
+    }
+  }
+}

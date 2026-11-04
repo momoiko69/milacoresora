@@ -1,0 +1,16 @@
+# Binaries and build artifacts
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.log
+*.tmp
+UI/
+win-x64/
+Data/
+Engine/
+*.theme
+windhawk.ini
+__pycache__/
+.venv/
