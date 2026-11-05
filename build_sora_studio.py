@@ -147,7 +147,7 @@ def main():
     <!-- Navigation & Vitality -->
     <div class="flex items-center gap-2.5 text-xs font-mono">
       <div class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg border bg-emerald-950/60 border-emerald-500/50 text-emerald-300 font-bold">
-        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+        <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
         <span>MILA: GISING</span>
       </div>
 
@@ -728,3 +728,4 @@ class MilaThemeTokens {
 
 if __name__ == "__main__":
     main()
+
