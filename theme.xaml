@@ -1,0 +1,13 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!-- Sora Theme Studio .NET 10 ResourceDictionary -->
+    <!-- Theme: MilaCore Obsidian Neon (Default) -->
+    <SolidColorBrush x:Key="ThemeBackgroundBrush" Color="#0a0b10" />
+    <SolidColorBrush x:Key="ThemeSurfaceBrush" Color="#121420" />
+    <SolidColorBrush x:Key="ThemePrimaryBrush" Color="#a855f7" />
+    <SolidColorBrush x:Key="ThemeSecondaryBrush" Color="#06b6d4" />
+    <SolidColorBrush x:Key="ThemeAccentBrush" Color="#f43f5e" />
+    <SolidColorBrush x:Key="ThemeTextBrush" Color="#f8fafc" />
+    <SolidColorBrush x:Key="ThemeTextMutedBrush" Color="#94a3b8" />
+    <CornerRadius x:Key="ThemeCornerRadius">14</CornerRadius>
+</ResourceDictionary>

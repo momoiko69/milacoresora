@@ -1,0 +1,11 @@
+﻿{
+    "Accent":  "#00F2FE",
+    "Id":  "AresGlass",
+    "Border":  "#05D5FF",
+    "CornerRadius":  20,
+    "Category":  "LinkVegas Community Overhauls",
+    "Description":  "High-translucency see-through glass with cyan aura",
+    "Background":  "#0B1320",
+    "Name":  "Ares Glass UI",
+    "IsFloating":  true
+}

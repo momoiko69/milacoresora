@@ -1,46 +1,46 @@
 {
-  "CyberpunkNeonGlossy": {
+  "ObsidianNeon": {
     "meta": {
-      "generator": "Sora Theme Engine v2.0",
-      "theme_id": "CyberpunkNeonGlossy",
-      "theme_name": "Cyberpunk Neon Glossy",
-      "category": "MilaUniverse"
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "ObsidianNeon",
+      "theme_name": "MilaCore Obsidian Neon (Default)",
+      "category": "MilaCore Signature"
     },
     "color": {
       "background": {
-        "$value": "#08090d",
+        "$value": "#0a0b10",
         "$type": "color"
       },
       "surface": {
-        "$value": "#12141f",
+        "$value": "#121420",
         "$type": "color"
       },
       "surface_glass": {
-        "$value": "rgba(18, 20, 31, 0.75)",
+        "$value": "rgba(18, 20, 32, 0.72)",
         "$type": "color"
       },
       "border": {
-        "$value": "rgba(0, 242, 254, 0.25)",
+        "$value": "rgba(168, 85, 247, 0.35)",
         "$type": "color"
       },
       "primary": {
-        "$value": "#00f2fe",
+        "$value": "#a855f7",
         "$type": "color"
       },
       "primary_glow": {
-        "$value": "rgba(0, 242, 254, 0.4)",
+        "$value": "rgba(168, 85, 247, 0.45)",
         "$type": "color"
       },
       "secondary": {
-        "$value": "#f72585",
+        "$value": "#06b6d4",
         "$type": "color"
       },
       "secondary_glow": {
-        "$value": "rgba(247, 37, 133, 0.4)",
+        "$value": "rgba(6, 182, 212, 0.45)",
         "$type": "color"
       },
       "accent": {
-        "$value": "#fee440",
+        "$value": "#f43f5e",
         "$type": "color"
       },
       "text": {
@@ -58,22 +58,94 @@
     },
     "effect": {
       "blur": {
-        "$value": "16px",
+        "$value": "20px",
         "$type": "dimension"
       },
       "radius": {
-        "$value": "12px",
+        "$value": "14px",
         "$type": "dimension"
       },
       "box_shadow": {
-        "$value": "0 8px 32px 0 rgba(0, 242, 254, 0.15)",
+        "$value": "0 10px 35px 0 rgba(168, 85, 247, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "CyberpunkNeonGlossy": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "CyberpunkNeonGlossy",
+      "theme_name": "Cyberpunk Neon Glossy",
+      "category": "MilaUniverse"
+    },
+    "color": {
+      "background": {
+        "$value": "#0b0a14",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#131124",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(19, 17, 36, 0.75)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(0, 246, 255, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#00f6ff",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(0, 246, 255, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#ff0080",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(255, 0, 128, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#ffe600",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "10px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(0, 246, 255, 0.25)",
         "$type": "dimension"
       }
     }
   },
   "LiquidGlassTahoe": {
     "meta": {
-      "generator": "Sora Theme Engine v2.0",
+      "generator": "Sora Theme Engine v3.0",
       "theme_id": "LiquidGlassTahoe",
       "theme_name": "Liquid Glass Tahoe (macOS Tahoe Dark)",
       "category": "MilaUniverse"
@@ -92,7 +164,7 @@
         "$type": "color"
       },
       "border": {
-        "$value": "rgba(255, 255, 255, 0.12)",
+        "$value": "rgba(255, 255, 255, 0.16)",
         "$type": "color"
       },
       "primary": {
@@ -100,7 +172,7 @@
         "$type": "color"
       },
       "primary_glow": {
-        "$value": "rgba(56, 189, 248, 0.35)",
+        "$value": "rgba(56, 189, 248, 0.4)",
         "$type": "color"
       },
       "secondary": {
@@ -108,7 +180,7 @@
         "$type": "color"
       },
       "secondary_glow": {
-        "$value": "rgba(99, 102, 241, 0.35)",
+        "$value": "rgba(99, 102, 241, 0.4)",
         "$type": "color"
       },
       "accent": {
@@ -138,14 +210,14 @@
         "$type": "dimension"
       },
       "box_shadow": {
-        "$value": "0 12px 40px 0 rgba(0, 0, 0, 0.45)",
+        "$value": "0 12px 40px 0 rgba(56, 189, 248, 0.2)",
         "$type": "dimension"
       }
     }
   },
   "DemonSlayerMatte": {
     "meta": {
-      "generator": "Sora Theme Engine v2.0",
+      "generator": "Sora Theme Engine v3.0",
       "theme_id": "DemonSlayerMatte",
       "theme_name": "Demon Slayer Matte",
       "category": "MilaUniverse"
@@ -164,7 +236,7 @@
         "$type": "color"
       },
       "border": {
-        "$value": "rgba(225, 29, 72, 0.3)",
+        "$value": "rgba(225, 29, 72, 0.35)",
         "$type": "color"
       },
       "primary": {
@@ -172,7 +244,7 @@
         "$type": "color"
       },
       "primary_glow": {
-        "$value": "rgba(225, 29, 72, 0.4)",
+        "$value": "rgba(225, 29, 72, 0.45)",
         "$type": "color"
       },
       "secondary": {
@@ -180,7 +252,7 @@
         "$type": "color"
       },
       "secondary_glow": {
-        "$value": "rgba(13, 148, 136, 0.4)",
+        "$value": "rgba(13, 148, 136, 0.45)",
         "$type": "color"
       },
       "accent": {
@@ -210,14 +282,14 @@
         "$type": "dimension"
       },
       "box_shadow": {
-        "$value": "0 4px 20px 0 rgba(225, 29, 72, 0.15)",
+        "$value": "0 4px 20px 0 rgba(225, 29, 72, 0.2)",
         "$type": "dimension"
       }
     }
   },
   "IronManGlossy": {
     "meta": {
-      "generator": "Sora Theme Engine v2.0",
+      "generator": "Sora Theme Engine v3.0",
       "theme_id": "IronManGlossy",
       "theme_name": "Iron Man Mark-LV Glossy",
       "category": "MilaUniverse"
@@ -236,7 +308,7 @@
         "$type": "color"
       },
       "border": {
-        "$value": "rgba(234, 179, 8, 0.3)",
+        "$value": "rgba(234, 179, 8, 0.35)",
         "$type": "color"
       },
       "primary": {
@@ -282,14 +354,14 @@
         "$type": "dimension"
       },
       "box_shadow": {
-        "$value": "0 8px 30px 0 rgba(234, 179, 8, 0.2)",
+        "$value": "0 8px 30px 0 rgba(234, 179, 8, 0.25)",
         "$type": "dimension"
       }
     }
   },
   "TheMatrixMatte": {
     "meta": {
-      "generator": "Sora Theme Engine v2.0",
+      "generator": "Sora Theme Engine v3.0",
       "theme_id": "TheMatrixMatte",
       "theme_name": "The Matrix Digital Rain",
       "category": "MilaUniverse"
@@ -308,7 +380,7 @@
         "$type": "color"
       },
       "border": {
-        "$value": "rgba(34, 197, 94, 0.25)",
+        "$value": "rgba(34, 197, 94, 0.3)",
         "$type": "color"
       },
       "primary": {
@@ -324,7 +396,7 @@
         "$type": "color"
       },
       "secondary_glow": {
-        "$value": "rgba(16, 185, 129, 0.4)",
+        "$value": "rgba(16, 185, 129, 0.45)",
         "$type": "color"
       },
       "accent": {
@@ -350,65 +422,65 @@
         "$type": "dimension"
       },
       "radius": {
-        "$value": "4px",
+        "$value": "6px",
         "$type": "dimension"
       },
       "box_shadow": {
-        "$value": "0 0 25px rgba(34, 197, 94, 0.25)",
+        "$value": "0 0 25px rgba(34, 197, 94, 0.3)",
         "$type": "dimension"
       }
     }
   },
-  "ObsidianNeon": {
+  "DarkKnightMatte": {
     "meta": {
-      "generator": "Sora Theme Engine v2.0",
-      "theme_id": "ObsidianNeon",
-      "theme_name": "MilaCore Obsidian Neon (Default)",
-      "category": "MilaCoreCore"
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "DarkKnightMatte",
+      "theme_name": "Batman Dark Knight",
+      "category": "MilaCore Signature Universe"
     },
     "color": {
       "background": {
-        "$value": "#0a0b10",
+        "$value": "#080808",
         "$type": "color"
       },
       "surface": {
-        "$value": "#121420",
+        "$value": "#252525",
         "$type": "color"
       },
       "surface_glass": {
-        "$value": "rgba(18, 20, 32, 0.7)",
+        "$value": "rgba(18, 18, 24, 0.72)",
         "$type": "color"
       },
       "border": {
-        "$value": "rgba(147, 51, 234, 0.25)",
+        "$value": "rgba(58, 58, 64, 0.35)",
         "$type": "color"
       },
       "primary": {
-        "$value": "#a855f7",
+        "$value": "#FFD700",
         "$type": "color"
       },
       "primary_glow": {
-        "$value": "rgba(168, 85, 247, 0.4)",
+        "$value": "rgba(255, 215, 0, 0.45)",
         "$type": "color"
       },
       "secondary": {
-        "$value": "#06b6d4",
+        "$value": "#3A3A40",
         "$type": "color"
       },
       "secondary_glow": {
-        "$value": "rgba(6, 182, 212, 0.4)",
+        "$value": "rgba(58, 58, 64, 0.45)",
         "$type": "color"
       },
       "accent": {
-        "$value": "#f43f5e",
+        "$value": "#FFD700",
         "$type": "color"
       },
       "text": {
-        "$value": "#f1f5f9",
+        "$value": "#f8fafc",
         "$type": "color"
       },
       "text_muted": {
-        "$value": "#64748b",
+        "$value": "#94a3b8",
         "$type": "color"
       },
       "text_dark": {
@@ -418,7 +490,511 @@
     },
     "effect": {
       "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "6px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(255, 215, 0, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "LiquidGlassNeonPrism": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "LiquidGlassNeonPrism",
+      "theme_name": "Liquid Glass Neon Prism",
+      "category": "MilaCore Signature Universe"
+    },
+    "color": {
+      "background": {
+        "$value": "#0B051A",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#282335",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(21, 15, 42, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(6, 182, 212, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#A855F7",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(168, 85, 247, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#06B6D4",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(6, 182, 212, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#A855F7",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "24px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(168, 85, 247, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "LiquidWaterOceanic": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "LiquidWaterOceanic",
+      "theme_name": "Liquid Water Oceanic",
+      "category": "MilaCore Signature Universe"
+    },
+    "color": {
+      "background": {
+        "$value": "#021420",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#20303a",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(12, 30, 48, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(0, 82, 212, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#00E5FF",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(0, 229, 255, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#0052D4",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(0, 82, 212, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#00E5FF",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "22px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(0, 229, 255, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "SpiderManGlossy": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "SpiderManGlossy",
+      "theme_name": "Spider-Man Glossy",
+      "category": "MilaCore Signature Universe"
+    },
+    "color": {
+      "background": {
+        "$value": "#080816",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#252531",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(18, 18, 38, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(43, 72, 170, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#E30613",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(227, 6, 19, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#2B48AA",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(43, 72, 170, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#E30613",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "16px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(227, 6, 19, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "SpringSakuraLight": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "SpringSakuraLight",
+      "theme_name": "Spring Sakura",
+      "category": "MilaCore Signature Universe"
+    },
+    "color": {
+      "background": {
+        "$value": "#FFF5F8",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#fff6f8",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(265, 255, 264, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(0, 184, 148, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#E84393",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(232, 67, 147, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#00B894",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(0, 184, 148, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#E84393",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
         "$value": "20px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(232, 67, 147, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "SummerBreezeLight": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "SummerBreezeLight",
+      "theme_name": "Summer Breeze",
+      "category": "MilaCore Signature Universe"
+    },
+    "color": {
+      "background": {
+        "$value": "#F0F8FF",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#f1f8ff",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(250, 258, 271, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(243, 156, 18, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#0984E3",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(9, 132, 227, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#F39C12",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(243, 156, 18, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#0984E3",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(9, 132, 227, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "ThanosMetallic": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "ThanosMetallic",
+      "theme_name": "Thanos Metallic",
+      "category": "MilaCore Signature Universe"
+    },
+    "color": {
+      "background": {
+        "$value": "#0D061A",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#2a2335",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(23, 16, 42, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(212, 175, 55, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#7C4DFF",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(124, 77, 255, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#D4AF37",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(212, 175, 55, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#7C4DFF",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "12px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(124, 77, 255, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "TheJokerChaos": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "TheJokerChaos",
+      "theme_name": "The Joker Chaos",
+      "category": "MilaCore Signature Universe"
+    },
+    "color": {
+      "background": {
+        "$value": "#0A0412",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#27222e",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(20, 14, 34, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(0, 168, 107, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#6A0DAD",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(106, 13, 173, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#00A86B",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(0, 168, 107, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#6A0DAD",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
         "$type": "dimension"
       },
       "radius": {
@@ -426,7 +1002,6559 @@
         "$type": "dimension"
       },
       "box_shadow": {
-        "$value": "0 10px 35px 0 rgba(168, 85, 247, 0.18)",
+        "$value": "0 8px 32px 0 rgba(106, 13, 173, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "WinterFrost": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "WinterFrost",
+      "theme_name": "Winter Frost",
+      "category": "MilaCore Signature Universe"
+    },
+    "color": {
+      "background": {
+        "$value": "#081018",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#252c33",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(18, 26, 40, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(100, 150, 200, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#B4DCFF",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(180, 220, 255, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#6496C8",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(100, 150, 200, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#B4DCFF",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(180, 220, 255, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "3dPurpleTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "3dPurpleTheme",
+      "theme_name": "3D Purple Theme For Windows 11",
+      "category": "LinkVegas (Neon Violet / Purple)"
+    },
+    "color": {
+      "background": {
+        "$value": "#0C0617",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#292332",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(22, 16, 39, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(124, 58, 237, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#A855F7",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(168, 85, 247, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#7C3AED",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(124, 58, 237, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#A855F7",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "16px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(168, 85, 247, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "AeroGlassTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "AeroGlassTheme",
+      "theme_name": "Aero Glass Theme For Windows 11",
+      "category": "LinkVegas (Translucent Glass UI)"
+    },
+    "color": {
+      "background": {
+        "$value": "#060D1A",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#232a35",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(16, 23, 42, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(5, 213, 255, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#00F2FE",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(0, 242, 254, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#05D5FF",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(5, 213, 255, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#00F2FE",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "22px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(0, 242, 254, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "AeroliteWindows9InspiredMinimalUiTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "AeroliteWindows9InspiredMinimalUiTheme",
+      "theme_name": "AeroLite Theme for Windows 11 \u2013 Windows 9 Inspired Minimal UI",
+      "category": "LinkVegas (Obsidian Slate Dark)"
+    },
+    "color": {
+      "background": {
+        "$value": "#0B0F17",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#282b32",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(21, 25, 39, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(30, 41, 59, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(56, 189, 248, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#1E293B",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(30, 41, 59, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "12px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(56, 189, 248, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "AioPurpleCustomizationTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "AioPurpleCustomizationTheme",
+      "theme_name": "AIO Theme For Windows 11 \u2013 Amazing Purple Customization Theme",
+      "category": "LinkVegas (Neon Violet / Purple)"
+    },
+    "color": {
+      "background": {
+        "$value": "#0C0617",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#292332",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(22, 16, 39, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(124, 58, 237, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#A855F7",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(168, 85, 247, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#7C3AED",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(124, 58, 237, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#A855F7",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "16px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(168, 85, 247, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "ArcAccentDarkTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "ArcAccentDarkTheme",
+      "theme_name": "Arc Accent Dark Theme For Windows 11",
+      "category": "LinkVegas (Obsidian Slate Dark)"
+    },
+    "color": {
+      "background": {
+        "$value": "#0B0F17",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#282b32",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(21, 25, 39, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(30, 41, 59, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(56, 189, 248, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#1E293B",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(30, 41, 59, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "12px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(56, 189, 248, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "AresGlass": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "AresGlass",
+      "theme_name": "Ares Glass UI",
+      "category": "LinkVegas Community Overhauls"
+    },
+    "color": {
+      "background": {
+        "$value": "#0B1320",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#282f3a",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(21, 29, 48, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(5, 213, 255, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#00F2FE",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(0, 242, 254, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#05D5FF",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(5, 213, 255, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#00F2FE",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "20px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(0, 242, 254, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "AresGlassUiTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "AresGlassUiTheme",
+      "theme_name": "Ares Theme For Windows 11 \u2013 Stunning Glass UI",
+      "category": "LinkVegas (Translucent Glass UI)"
+    },
+    "color": {
+      "background": {
+        "$value": "#060D1A",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#232a35",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(16, 23, 42, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(5, 213, 255, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#00F2FE",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(0, 242, 254, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#05D5FF",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(5, 213, 255, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#00F2FE",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "22px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(0, 242, 254, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "AshesTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "AshesTheme",
+      "theme_name": "Ashes Theme For Windows 11",
+      "category": "LinkVegas (Obsidian Slate Dark)"
+    },
+    "color": {
+      "background": {
+        "$value": "#0B0F17",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#282b32",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(21, 25, 39, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(30, 41, 59, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(56, 189, 248, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#1E293B",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(30, 41, 59, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "12px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(56, 189, 248, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "BluefluxTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "BluefluxTheme",
+      "theme_name": "Amazing BlueFlux Theme For Windows 11",
+      "category": "LinkVegas (Oceanic Deep Blue)"
+    },
+    "color": {
+      "background": {
+        "$value": "#040D1E",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#222a39",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(14, 23, 46, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(56, 189, 248, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#0284C7",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(2, 132, 199, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(56, 189, 248, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#0284C7",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(2, 132, 199, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "BluesolarTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "BluesolarTheme",
+      "theme_name": "Bluesolar Theme for Windows 11",
+      "category": "LinkVegas (Oceanic Deep Blue)"
+    },
+    "color": {
+      "background": {
+        "$value": "#040D1E",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#222a39",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(14, 23, 46, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(56, 189, 248, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#0284C7",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(2, 132, 199, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(56, 189, 248, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#0284C7",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(2, 132, 199, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "ChloromateTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "ChloromateTheme",
+      "theme_name": "Amazing Chloromate Theme For Windows 11",
+      "category": "LinkVegas (Emerald / Botanical)"
+    },
+    "color": {
+      "background": {
+        "$value": "#05140C",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#233029",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(15, 30, 28, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(52, 211, 153, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#10B981",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(16, 185, 129, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#34D399",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(52, 211, 153, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#10B981",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "14px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(16, 185, 129, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "ColorVerseWindows1124h2Theme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "ColorVerseWindows1124h2Theme",
+      "theme_name": "Color Verse Windows 11 Theme 24h2",
+      "category": "LinkVegas (Pastel & Vibrant)"
+    },
+    "color": {
+      "background": {
+        "$value": "#140A12",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#30272e",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(30, 20, 34, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(236, 72, 153, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#F472B6",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(244, 114, 182, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#EC4899",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(236, 72, 153, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#F472B6",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "20px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(244, 114, 182, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "CrystalGlassTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "CrystalGlassTheme",
+      "theme_name": "Crystal Glass Theme For Windows 11",
+      "category": "LinkVegas (Translucent Glass UI)"
+    },
+    "color": {
+      "background": {
+        "$value": "#060D1A",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#232a35",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(16, 23, 42, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(5, 213, 255, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#00F2FE",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(0, 242, 254, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#05D5FF",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(5, 213, 255, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#00F2FE",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "22px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(0, 242, 254, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "DelightTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "DelightTheme",
+      "theme_name": "Delight Theme For Windows 11",
+      "category": "LinkVegas (Pastel & Vibrant)"
+    },
+    "color": {
+      "background": {
+        "$value": "#140A12",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#30272e",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(30, 20, 34, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(236, 72, 153, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#F472B6",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(244, 114, 182, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#EC4899",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(236, 72, 153, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#F472B6",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "20px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(244, 114, 182, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "DragonKnightTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "DragonKnightTheme",
+      "theme_name": "Dragon Knight Theme For Windows 11",
+      "category": "LinkVegas (Aggressive Gaming)"
+    },
+    "color": {
+      "background": {
+        "$value": "#0B0B10",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#28282c",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(21, 21, 32, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(230, 0, 38, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#FF1E42",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(255, 30, 66, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#E60026",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(230, 0, 38, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#FF1E42",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "8px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(255, 30, 66, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "EverforestTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "EverforestTheme",
+      "theme_name": "Everforest Theme for Windows 11",
+      "category": "LinkVegas (Emerald / Botanical)"
+    },
+    "color": {
+      "background": {
+        "$value": "#05140C",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#233029",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(15, 30, 28, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(52, 211, 153, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#10B981",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(16, 185, 129, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#34D399",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(52, 211, 153, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#10B981",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "14px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(16, 185, 129, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "EvoTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "EvoTheme",
+      "theme_name": "EVO Theme For Windows 11",
+      "category": "LinkVegas (Obsidian Slate Dark)"
+    },
+    "color": {
+      "background": {
+        "$value": "#0B0F17",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#282b32",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(21, 25, 39, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(30, 41, 59, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(56, 189, 248, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#1E293B",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(30, 41, 59, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "12px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(56, 189, 248, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "Fluent2.0Theme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "Fluent2.0Theme",
+      "theme_name": "Fluent 2.0 Theme for Windows 11",
+      "category": "LinkVegas (Obsidian Slate Dark)"
+    },
+    "color": {
+      "background": {
+        "$value": "#0B0F17",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#282b32",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(21, 25, 39, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(30, 41, 59, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(56, 189, 248, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#1E293B",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(30, 41, 59, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "12px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(56, 189, 248, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "FluentPinkTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "FluentPinkTheme",
+      "theme_name": "Fluent Pink Theme For windows 11",
+      "category": "LinkVegas (Pastel & Vibrant)"
+    },
+    "color": {
+      "background": {
+        "$value": "#140A12",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#30272e",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(30, 20, 34, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(236, 72, 153, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#F472B6",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(244, 114, 182, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#EC4899",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(236, 72, 153, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#F472B6",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "20px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(244, 114, 182, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "FluentTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "FluentTheme",
+      "theme_name": "Fluent Theme for Windows 11",
+      "category": "LinkVegas (Obsidian Slate Dark)"
+    },
+    "color": {
+      "background": {
+        "$value": "#0B0F17",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#282b32",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(21, 25, 39, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(30, 41, 59, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(56, 189, 248, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#1E293B",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(30, 41, 59, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "12px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(56, 189, 248, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "FrostedGlassDarkTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "FrostedGlassDarkTheme",
+      "theme_name": "Frosted Glass Dark Theme For Windows 11",
+      "category": "LinkVegas (Translucent Glass UI)"
+    },
+    "color": {
+      "background": {
+        "$value": "#060D1A",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#232a35",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(16, 23, 42, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(5, 213, 255, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#00F2FE",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(0, 242, 254, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#05D5FF",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(5, 213, 255, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#00F2FE",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "22px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(0, 242, 254, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "FrostedGlassTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "FrostedGlassTheme",
+      "theme_name": "Frosted Glass Theme For Windows 11",
+      "category": "LinkVegas (Translucent Glass UI)"
+    },
+    "color": {
+      "background": {
+        "$value": "#060D1A",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#232a35",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(16, 23, 42, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(5, 213, 255, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#00F2FE",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(0, 242, 254, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#05D5FF",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(5, 213, 255, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#00F2FE",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "22px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(0, 242, 254, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "FutureVisionTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "FutureVisionTheme",
+      "theme_name": "Future Vision Theme For Windows 11",
+      "category": "LinkVegas (Obsidian Slate Dark)"
+    },
+    "color": {
+      "background": {
+        "$value": "#0B0F17",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#282b32",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(21, 25, 39, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(30, 41, 59, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(56, 189, 248, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#1E293B",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(30, 41, 59, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "12px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(56, 189, 248, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "GlassifyTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "GlassifyTheme",
+      "theme_name": "Glassify Theme For Windows 11",
+      "category": "LinkVegas (Translucent Glass UI)"
+    },
+    "color": {
+      "background": {
+        "$value": "#060D1A",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#232a35",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(16, 23, 42, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(5, 213, 255, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#00F2FE",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(0, 242, 254, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#05D5FF",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(5, 213, 255, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#00F2FE",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "22px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(0, 242, 254, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "GorudaTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "GorudaTheme",
+      "theme_name": "GORUDA Theme for Windows 11",
+      "category": "LinkVegas (Obsidian Slate Dark)"
+    },
+    "color": {
+      "background": {
+        "$value": "#0B0F17",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#282b32",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(21, 25, 39, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(30, 41, 59, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(56, 189, 248, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#1E293B",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(30, 41, 59, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "12px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(56, 189, 248, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "GorudaV2Theme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "GorudaV2Theme",
+      "theme_name": "Goruda Theme v2 for Windows 11",
+      "category": "LinkVegas (Obsidian Slate Dark)"
+    },
+    "color": {
+      "background": {
+        "$value": "#0B0F17",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#282b32",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(21, 25, 39, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(30, 41, 59, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(56, 189, 248, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#1E293B",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(30, 41, 59, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "12px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(56, 189, 248, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "Gradient24h2Theme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "Gradient24h2Theme",
+      "theme_name": "Gradient Theme For Windows 11 24H2",
+      "category": "LinkVegas (Obsidian Slate Dark)"
+    },
+    "color": {
+      "background": {
+        "$value": "#0B0F17",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#282b32",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(21, 25, 39, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(30, 41, 59, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(56, 189, 248, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#1E293B",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(30, 41, 59, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "12px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(56, 189, 248, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "GrapeTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "GrapeTheme",
+      "theme_name": "Grape Theme For Windows 11",
+      "category": "LinkVegas (Neon Violet / Purple)"
+    },
+    "color": {
+      "background": {
+        "$value": "#0C0617",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#292332",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(22, 16, 39, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(124, 58, 237, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#A855F7",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(168, 85, 247, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#7C3AED",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(124, 58, 237, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#A855F7",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "16px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(168, 85, 247, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "GravityTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "GravityTheme",
+      "theme_name": "Gravity Theme For Windows 11",
+      "category": "LinkVegas (Obsidian Slate Dark)"
+    },
+    "color": {
+      "background": {
+        "$value": "#0B0F17",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#282b32",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(21, 25, 39, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(30, 41, 59, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(56, 189, 248, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#1E293B",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(30, 41, 59, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "12px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(56, 189, 248, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "HarmonyTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "HarmonyTheme",
+      "theme_name": "Harmony Theme For Windows 11",
+      "category": "LinkVegas (Pastel & Vibrant)"
+    },
+    "color": {
+      "background": {
+        "$value": "#140A12",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#30272e",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(30, 20, 34, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(236, 72, 153, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#F472B6",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(244, 114, 182, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#EC4899",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(236, 72, 153, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#F472B6",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "20px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(244, 114, 182, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "InfinityWindows11Theme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "InfinityWindows11Theme",
+      "theme_name": "Infinity Windows 11 Theme",
+      "category": "LinkVegas (Obsidian Slate Dark)"
+    },
+    "color": {
+      "background": {
+        "$value": "#0B0F17",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#282b32",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(21, 25, 39, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(30, 41, 59, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(56, 189, 248, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#1E293B",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(30, 41, 59, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "12px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(56, 189, 248, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "JadeJubileeWindows11Theme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "JadeJubileeWindows11Theme",
+      "theme_name": "Jade Jubilee Windows 11 Theme",
+      "category": "LinkVegas (Emerald / Botanical)"
+    },
+    "color": {
+      "background": {
+        "$value": "#05140C",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#233029",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(15, 30, 28, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(52, 211, 153, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#10B981",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(16, 185, 129, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#34D399",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(52, 211, 153, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#10B981",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "14px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(16, 185, 129, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "LinnerTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "LinnerTheme",
+      "theme_name": "Linner Theme For Windows 11",
+      "category": "LinkVegas (Obsidian Slate Dark)"
+    },
+    "color": {
+      "background": {
+        "$value": "#0B0F17",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#282b32",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(21, 25, 39, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(30, 41, 59, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(56, 189, 248, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#1E293B",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(30, 41, 59, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "12px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(56, 189, 248, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "LinuxTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "LinuxTheme",
+      "theme_name": "Linux Theme For Windows 11",
+      "category": "LinkVegas (Obsidian Slate Dark)"
+    },
+    "color": {
+      "background": {
+        "$value": "#0B0F17",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#282b32",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(21, 25, 39, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(30, 41, 59, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(56, 189, 248, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#1E293B",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(30, 41, 59, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "12px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(56, 189, 248, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "LiquidGlassTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "LiquidGlassTheme",
+      "theme_name": "Liquid Glass Ultimate Theme For Windows 11",
+      "category": "LinkVegas (Translucent Glass UI)"
+    },
+    "color": {
+      "background": {
+        "$value": "#060D1A",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#232a35",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(16, 23, 42, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(5, 213, 255, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#00F2FE",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(0, 242, 254, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#05D5FF",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(5, 213, 255, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#00F2FE",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "22px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(0, 242, 254, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "LiquidGlassThemev2": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "LiquidGlassThemev2",
+      "theme_name": "Liquid Glass Theme for Windows 11",
+      "category": "LinkVegas (Translucent Glass UI)"
+    },
+    "color": {
+      "background": {
+        "$value": "#060D1A",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#232a35",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(16, 23, 42, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(5, 213, 255, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#00F2FE",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(0, 242, 254, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#05D5FF",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(5, 213, 255, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#00F2FE",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "22px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(0, 242, 254, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "LiquidGlassUltimate": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "LiquidGlassUltimate",
+      "theme_name": "Liquid Glass Ultimate",
+      "category": "LinkVegas Community Overhauls"
+    },
+    "color": {
+      "background": {
+        "$value": "#0A101D",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#272c38",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(20, 26, 45, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(2, 132, 199, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(56, 189, 248, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#0284C7",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(2, 132, 199, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "22px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(56, 189, 248, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "Macos27GoldenGateTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "Macos27GoldenGateTheme",
+      "theme_name": "macOS 27 Golden Gate Theme For Windows 11",
+      "category": "LinkVegas (Cupertino macOS Concept)"
+    },
+    "color": {
+      "background": {
+        "$value": "#18181B",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#333336",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(34, 34, 43, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(82, 82, 91, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#E4E4E7",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(228, 228, 231, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#52525B",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(82, 82, 91, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#E4E4E7",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "26px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(228, 228, 231, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "MacosBloomTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "MacosBloomTheme",
+      "theme_name": "macOS Bloom Theme For Windows 11",
+      "category": "LinkVegas (Cupertino macOS Concept)"
+    },
+    "color": {
+      "background": {
+        "$value": "#18181B",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#333336",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(34, 34, 43, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(82, 82, 91, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#E4E4E7",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(228, 228, 231, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#52525B",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(82, 82, 91, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#E4E4E7",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "26px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(228, 228, 231, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "MacosEleganceTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "MacosEleganceTheme",
+      "theme_name": "macOS Elegance Theme For Windows 11",
+      "category": "LinkVegas (Cupertino macOS Concept)"
+    },
+    "color": {
+      "background": {
+        "$value": "#18181B",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#333336",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(34, 34, 43, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(82, 82, 91, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#E4E4E7",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(228, 228, 231, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#52525B",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(82, 82, 91, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#E4E4E7",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "26px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(228, 228, 231, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "MacosInspiredDarkTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "MacosInspiredDarkTheme",
+      "theme_name": "macOS-Inspired Dark Theme For Windows 11",
+      "category": "LinkVegas (Cupertino macOS Concept)"
+    },
+    "color": {
+      "background": {
+        "$value": "#18181B",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#333336",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(34, 34, 43, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(82, 82, 91, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#E4E4E7",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(228, 228, 231, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#52525B",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(82, 82, 91, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#E4E4E7",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "26px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(228, 228, 231, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "macOSSequoia": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "macOSSequoia",
+      "theme_name": "macOS Sequoia",
+      "category": "LinkVegas Community Overhauls"
+    },
+    "color": {
+      "background": {
+        "$value": "#18181B",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#333336",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(34, 34, 43, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(82, 82, 91, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#E4E4E7",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(228, 228, 231, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#52525B",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(82, 82, 91, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#E4E4E7",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "26px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(228, 228, 231, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "MacosSequoiaInspiredTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "MacosSequoiaInspiredTheme",
+      "theme_name": "macOS Sequoia-Inspired Theme For Windows 11",
+      "category": "LinkVegas (Cupertino macOS Concept)"
+    },
+    "color": {
+      "background": {
+        "$value": "#18181B",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#333336",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(34, 34, 43, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(82, 82, 91, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#E4E4E7",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(228, 228, 231, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#52525B",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(82, 82, 91, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#E4E4E7",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "26px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(228, 228, 231, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "macOSTahoe": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "macOSTahoe",
+      "theme_name": "macOS Tahoe Theme",
+      "category": "LinkVegas Community Overhauls"
+    },
+    "color": {
+      "background": {
+        "$value": "#071326",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#242f40",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(17, 29, 54, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(56, 189, 248, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#007AFF",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(0, 122, 255, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(56, 189, 248, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#007AFF",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "26px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(0, 122, 255, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "MacosTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "MacosTheme",
+      "theme_name": "macOS Theme for Windows 11",
+      "category": "LinkVegas (Cupertino macOS Concept)"
+    },
+    "color": {
+      "background": {
+        "$value": "#18181B",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#333336",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(34, 34, 43, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(82, 82, 91, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#E4E4E7",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(228, 228, 231, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#52525B",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(82, 82, 91, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#E4E4E7",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "26px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(228, 228, 231, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "MintauraTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "MintauraTheme",
+      "theme_name": "MintAura Theme For Windows 11",
+      "category": "LinkVegas (Emerald / Botanical)"
+    },
+    "color": {
+      "background": {
+        "$value": "#05140C",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#233029",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(15, 30, 28, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(52, 211, 153, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#10B981",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(16, 185, 129, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#34D399",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(52, 211, 153, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#10B981",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "14px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(16, 185, 129, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "NebulaTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "NebulaTheme",
+      "theme_name": "Nebula Theme For Windows 11",
+      "category": "LinkVegas (Obsidian Slate Dark)"
+    },
+    "color": {
+      "background": {
+        "$value": "#0B0F17",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#282b32",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(21, 25, 39, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(30, 41, 59, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(56, 189, 248, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#1E293B",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(30, 41, 59, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "12px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(56, 189, 248, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "NemoTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "NemoTheme",
+      "theme_name": "Nemo Theme For Windows 11",
+      "category": "LinkVegas (Obsidian Slate Dark)"
+    },
+    "color": {
+      "background": {
+        "$value": "#0B0F17",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#282b32",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(21, 25, 39, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(30, 41, 59, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(56, 189, 248, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#1E293B",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(30, 41, 59, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "12px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(56, 189, 248, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "NeoDarkMinimalTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "NeoDarkMinimalTheme",
+      "theme_name": "Neo Dark Minimal Theme For Windows 11",
+      "category": "LinkVegas (Obsidian Slate Dark)"
+    },
+    "color": {
+      "background": {
+        "$value": "#0B0F17",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#282b32",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(21, 25, 39, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(30, 41, 59, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(56, 189, 248, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#1E293B",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(30, 41, 59, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "12px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(56, 189, 248, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "NewArcticTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "NewArcticTheme",
+      "theme_name": "New Arctic Theme For Windows 11",
+      "category": "LinkVegas (Oceanic Deep Blue)"
+    },
+    "color": {
+      "background": {
+        "$value": "#040D1E",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#222a39",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(14, 23, 46, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(56, 189, 248, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#0284C7",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(2, 132, 199, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(56, 189, 248, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#0284C7",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(2, 132, 199, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "NewColorOsTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "NewColorOsTheme",
+      "theme_name": "New Color OS Theme For Windows 11",
+      "category": "LinkVegas (Pastel & Vibrant)"
+    },
+    "color": {
+      "background": {
+        "$value": "#140A12",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#30272e",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(30, 20, 34, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(236, 72, 153, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#F472B6",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(244, 114, 182, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#EC4899",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(236, 72, 153, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#F472B6",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "20px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(244, 114, 182, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "NewMacosTahoeTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "NewMacosTahoeTheme",
+      "theme_name": "New macOS Tahoe Theme For Windows 11",
+      "category": "LinkVegas (Cupertino macOS Concept)"
+    },
+    "color": {
+      "background": {
+        "$value": "#18181B",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#333336",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(34, 34, 43, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(82, 82, 91, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#E4E4E7",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(228, 228, 231, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#52525B",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(82, 82, 91, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#E4E4E7",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "26px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(228, 228, 231, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "NewModernWindows11Theme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "NewModernWindows11Theme",
+      "theme_name": "New Modern Windows 11 Theme",
+      "category": "LinkVegas (Obsidian Slate Dark)"
+    },
+    "color": {
+      "background": {
+        "$value": "#0B0F17",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#282b32",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(21, 25, 39, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(30, 41, 59, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(56, 189, 248, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#1E293B",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(30, 41, 59, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "12px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(56, 189, 248, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "NewWindroidTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "NewWindroidTheme",
+      "theme_name": "New Windroid Theme For Windows 11",
+      "category": "LinkVegas (Obsidian Slate Dark)"
+    },
+    "color": {
+      "background": {
+        "$value": "#0B0F17",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#282b32",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(21, 25, 39, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(30, 41, 59, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(56, 189, 248, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#1E293B",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(30, 41, 59, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "12px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(56, 189, 248, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "NexaUiTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "NexaUiTheme",
+      "theme_name": "Nexa UI Theme for Windows 11",
+      "category": "LinkVegas (Obsidian Slate Dark)"
+    },
+    "color": {
+      "background": {
+        "$value": "#0B0F17",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#282b32",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(21, 25, 39, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(30, 41, 59, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(56, 189, 248, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#1E293B",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(30, 41, 59, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "12px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(56, 189, 248, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "NextGenWindows11Theme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "NextGenWindows11Theme",
+      "theme_name": "Next-Gen Windows 11 Theme",
+      "category": "LinkVegas (Obsidian Slate Dark)"
+    },
+    "color": {
+      "background": {
+        "$value": "#0B0F17",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#282b32",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(21, 25, 39, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(30, 41, 59, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(56, 189, 248, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#1E293B",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(30, 41, 59, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "12px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(56, 189, 248, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "NovaDarkBlue": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "NovaDarkBlue",
+      "theme_name": "Nova Dark Blue",
+      "category": "LinkVegas Community Overhauls"
+    },
+    "color": {
+      "background": {
+        "$value": "#040914",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#222630",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(14, 19, 36, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(29, 78, 216, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#2563EB",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(37, 99, 235, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#1D4ED8",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(29, 78, 216, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#2563EB",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "12px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(37, 99, 235, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "NovaFuturisticDarkBlueExperienceTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "NovaFuturisticDarkBlueExperienceTheme",
+      "theme_name": "Nova Theme For Windows 11 \u2013 Ultimate Futuristic Dark Blue Experience",
+      "category": "LinkVegas (Oceanic Deep Blue)"
+    },
+    "color": {
+      "background": {
+        "$value": "#040D1E",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#222a39",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(14, 23, 46, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(56, 189, 248, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#0284C7",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(2, 132, 199, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(56, 189, 248, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#0284C7",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(2, 132, 199, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "NovaGlassTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "NovaGlassTheme",
+      "theme_name": "Nova Glass Theme for Windows 11",
+      "category": "LinkVegas (Translucent Glass UI)"
+    },
+    "color": {
+      "background": {
+        "$value": "#060D1A",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#232a35",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(16, 23, 42, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(5, 213, 255, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#00F2FE",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(0, 242, 254, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#05D5FF",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(5, 213, 255, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#00F2FE",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "22px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(0, 242, 254, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "OceanTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "OceanTheme",
+      "theme_name": "Ocean Theme For Windows 11",
+      "category": "LinkVegas (Oceanic Deep Blue)"
+    },
+    "color": {
+      "background": {
+        "$value": "#040D1E",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#222a39",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(14, 23, 46, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(56, 189, 248, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#0284C7",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(2, 132, 199, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(56, 189, 248, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#0284C7",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(2, 132, 199, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "OceanWaveTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "OceanWaveTheme",
+      "theme_name": "Ocean Wave Theme For Windows 11",
+      "category": "LinkVegas (Oceanic Deep Blue)"
+    },
+    "color": {
+      "background": {
+        "$value": "#040D1E",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#222a39",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(14, 23, 46, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(56, 189, 248, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#0284C7",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(2, 132, 199, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(56, 189, 248, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#0284C7",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(2, 132, 199, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "OrchidModernUiCustomizationTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "OrchidModernUiCustomizationTheme",
+      "theme_name": "Orchid Theme for Windows 11 \u2013 Modern UI Customization",
+      "category": "LinkVegas (Neon Violet / Purple)"
+    },
+    "color": {
+      "background": {
+        "$value": "#0C0617",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#292332",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(22, 16, 39, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(124, 58, 237, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#A855F7",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(168, 85, 247, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#7C3AED",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(124, 58, 237, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#A855F7",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "16px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(168, 85, 247, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "OxygenTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "OxygenTheme",
+      "theme_name": "Oxygen Theme For Windows 11",
+      "category": "LinkVegas (Obsidian Slate Dark)"
+    },
+    "color": {
+      "background": {
+        "$value": "#0B0F17",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#282b32",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(21, 25, 39, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(30, 41, 59, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(56, 189, 248, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#1E293B",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(30, 41, 59, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "12px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(56, 189, 248, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "PastelTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "PastelTheme",
+      "theme_name": "Pastel Theme For Windows 11",
+      "category": "LinkVegas (Pastel & Vibrant)"
+    },
+    "color": {
+      "background": {
+        "$value": "#140A12",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#30272e",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(30, 20, 34, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(236, 72, 153, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#F472B6",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(244, 114, 182, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#EC4899",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(236, 72, 153, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#F472B6",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "20px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(244, 114, 182, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "PinkPineTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "PinkPineTheme",
+      "theme_name": "Pink Pine Theme For Windows 11",
+      "category": "LinkVegas (Pastel & Vibrant)"
+    },
+    "color": {
+      "background": {
+        "$value": "#140A12",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#30272e",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(30, 20, 34, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(236, 72, 153, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#F472B6",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(244, 114, 182, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#EC4899",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(236, 72, 153, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#F472B6",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "20px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(244, 114, 182, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "PolarNightTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "PolarNightTheme",
+      "theme_name": "Polar Night Theme for Windows 11",
+      "category": "LinkVegas (Obsidian Slate Dark)"
+    },
+    "color": {
+      "background": {
+        "$value": "#0B0F17",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#282b32",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(21, 25, 39, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(30, 41, 59, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(56, 189, 248, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#1E293B",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(30, 41, 59, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "12px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(56, 189, 248, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "RampageGaming": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "RampageGaming",
+      "theme_name": "Rampage Gaming Theme",
+      "category": "LinkVegas Community Overhauls"
+    },
+    "color": {
+      "background": {
+        "$value": "#0B0B10",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#28282c",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(21, 21, 32, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(230, 0, 38, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#FF1E42",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(255, 30, 66, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#E60026",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(230, 0, 38, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#FF1E42",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "8px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(255, 30, 66, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "RampageGamingTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "RampageGamingTheme",
+      "theme_name": "Amazing Rampage Gaming Theme For Windows 11",
+      "category": "LinkVegas (Aggressive Gaming)"
+    },
+    "color": {
+      "background": {
+        "$value": "#0B0B10",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#28282c",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(21, 21, 32, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(230, 0, 38, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#FF1E42",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(255, 30, 66, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#E60026",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(230, 0, 38, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#FF1E42",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "8px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(255, 30, 66, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "RetroXPClassic": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "RetroXPClassic",
+      "theme_name": "Windows XP Classic",
+      "category": "LinkVegas Community Overhauls"
+    },
+    "color": {
+      "background": {
+        "$value": "#004E98",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#1e63a4",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(10, 88, 168, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(255, 209, 102, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#3A86FF",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(58, 134, 255, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#FFD166",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(255, 209, 102, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#3A86FF",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "4px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(58, 134, 255, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "RevengeTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "RevengeTheme",
+      "theme_name": "Revenge Theme For Windows 11",
+      "category": "LinkVegas (Aggressive Gaming)"
+    },
+    "color": {
+      "background": {
+        "$value": "#0B0B10",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#28282c",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(21, 21, 32, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(230, 0, 38, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#FF1E42",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(255, 30, 66, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#E60026",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(230, 0, 38, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#FF1E42",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "8px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(255, 30, 66, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "SatinDark": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "SatinDark",
+      "theme_name": "Satin Dark",
+      "category": "LinkVegas Community Overhauls"
+    },
+    "color": {
+      "background": {
+        "$value": "#12151C",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#2e3137",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(28, 31, 44, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(51, 65, 85, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#94A3B8",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(148, 163, 184, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#334155",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(51, 65, 85, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#94A3B8",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "10px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(148, 163, 184, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "SatinDarkTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "SatinDarkTheme",
+      "theme_name": "Satin Dark Theme for Windows 11",
+      "category": "LinkVegas (Obsidian Slate Dark)"
+    },
+    "color": {
+      "background": {
+        "$value": "#0B0F17",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#282b32",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(21, 25, 39, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(30, 41, 59, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(56, 189, 248, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#1E293B",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(30, 41, 59, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "12px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(56, 189, 248, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "ShadowMistTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "ShadowMistTheme",
+      "theme_name": "Shadow Mist Theme For Windows 11",
+      "category": "LinkVegas (Obsidian Slate Dark)"
+    },
+    "color": {
+      "background": {
+        "$value": "#0B0F17",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#282b32",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(21, 25, 39, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(30, 41, 59, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(56, 189, 248, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#1E293B",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(30, 41, 59, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "12px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(56, 189, 248, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "Sweet2.0Theme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "Sweet2.0Theme",
+      "theme_name": "Sweet 2.0 Theme For Windows 11",
+      "category": "LinkVegas (Pastel & Vibrant)"
+    },
+    "color": {
+      "background": {
+        "$value": "#140A12",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#30272e",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(30, 20, 34, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(236, 72, 153, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#F472B6",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(244, 114, 182, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#EC4899",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(236, 72, 153, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#F472B6",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "20px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(244, 114, 182, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "TheAorusGamingTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "TheAorusGamingTheme",
+      "theme_name": "The Aorus Gaming Theme for Windows 11",
+      "category": "LinkVegas (Aggressive Gaming)"
+    },
+    "color": {
+      "background": {
+        "$value": "#0B0B10",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#28282c",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(21, 21, 32, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(230, 0, 38, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#FF1E42",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(255, 30, 66, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#E60026",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(230, 0, 38, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#FF1E42",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "8px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(255, 30, 66, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "TheElegantMacosTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "TheElegantMacosTheme",
+      "theme_name": "The Elegant macOS Theme for Windows 11",
+      "category": "LinkVegas (Cupertino macOS Concept)"
+    },
+    "color": {
+      "background": {
+        "$value": "#18181B",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#333336",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(34, 34, 43, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(82, 82, 91, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#E4E4E7",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(228, 228, 231, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#52525B",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(82, 82, 91, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#E4E4E7",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "26px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(228, 228, 231, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "VioletPulse": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "VioletPulse",
+      "theme_name": "Violet Pulse",
+      "category": "LinkVegas Community Overhauls"
+    },
+    "color": {
+      "background": {
+        "$value": "#0D071E",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#2a2439",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(23, 17, 46, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(124, 58, 237, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#A855F7",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(168, 85, 247, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#7C3AED",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(124, 58, 237, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#A855F7",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "16px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(168, 85, 247, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "VioletPulseAndWindhawkModsTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "VioletPulseAndWindhawkModsTheme",
+      "theme_name": "Violet Pulse Theme and Windhawk Mods for Windows 11",
+      "category": "LinkVegas (Neon Violet / Purple)"
+    },
+    "color": {
+      "background": {
+        "$value": "#0C0617",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#292332",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(22, 16, 39, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(124, 58, 237, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#A855F7",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(168, 85, 247, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#7C3AED",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(124, 58, 237, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#A855F7",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "16px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(168, 85, 247, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "Windows11AcrylicGlassTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "Windows11AcrylicGlassTheme",
+      "theme_name": "Windows 11 Acrylic Glass Theme",
+      "category": "LinkVegas (Translucent Glass UI)"
+    },
+    "color": {
+      "background": {
+        "$value": "#060D1A",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#232a35",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(16, 23, 42, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(5, 213, 255, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#00F2FE",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(0, 242, 254, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#05D5FF",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(5, 213, 255, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#00F2FE",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "22px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(0, 242, 254, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "Windows11FullTransparentTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "Windows11FullTransparentTheme",
+      "theme_name": "Windows 11 Full Transparent Theme",
+      "category": "LinkVegas (Translucent Glass UI)"
+    },
+    "color": {
+      "background": {
+        "$value": "#060D1A",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#232a35",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(16, 23, 42, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(5, 213, 255, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#00F2FE",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(0, 242, 254, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#05D5FF",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(5, 213, 255, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#00F2FE",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "22px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(0, 242, 254, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "Windows12Concept": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "Windows12Concept",
+      "theme_name": "Windows 12 Concept",
+      "category": "LinkVegas Community Overhauls"
+    },
+    "color": {
+      "background": {
+        "$value": "#0F172A",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#2b3243",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(25, 33, 58, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(30, 41, 59, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(56, 189, 248, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#1E293B",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(30, 41, 59, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "24px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(56, 189, 248, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "Windows12InspiredTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "Windows12InspiredTheme",
+      "theme_name": "Windows 12 Inspired Theme for Windows 11",
+      "category": "LinkVegas (Obsidian Slate Dark)"
+    },
+    "color": {
+      "background": {
+        "$value": "#0B0F17",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#282b32",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(21, 25, 39, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(30, 41, 59, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(56, 189, 248, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#1E293B",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(30, 41, 59, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "12px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(56, 189, 248, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "Windows7ModernTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "Windows7ModernTheme",
+      "theme_name": "Windows 7 Modern Theme For Windows 11",
+      "category": "LinkVegas (Classic Windows Retro)"
+    },
+    "color": {
+      "background": {
+        "$value": "#0A246A",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#273e7b",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(20, 46, 122, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(96, 165, 250, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#3B82F6",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(59, 130, 246, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#60A5FA",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(96, 165, 250, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#3B82F6",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "6px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(59, 130, 246, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "Windows7Theme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "Windows7Theme",
+      "theme_name": "Windows 7 Theme For Windows 11",
+      "category": "LinkVegas (Classic Windows Retro)"
+    },
+    "color": {
+      "background": {
+        "$value": "#0A246A",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#273e7b",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(20, 46, 122, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(96, 165, 250, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#3B82F6",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(59, 130, 246, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#60A5FA",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(96, 165, 250, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#3B82F6",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "6px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(59, 130, 246, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "WindowsVistaInspiredTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "WindowsVistaInspiredTheme",
+      "theme_name": "Windows Vista Inspired Theme For Windows 11",
+      "category": "LinkVegas (Classic Windows Retro)"
+    },
+    "color": {
+      "background": {
+        "$value": "#0A246A",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#273e7b",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(20, 46, 122, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(96, 165, 250, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#3B82F6",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(59, 130, 246, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#60A5FA",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(96, 165, 250, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#3B82F6",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "6px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(59, 130, 246, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "WindowsXpClassicTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "WindowsXpClassicTheme",
+      "theme_name": "Windows Xp Classic Theme For Windows 11",
+      "category": "LinkVegas (Classic Windows Retro)"
+    },
+    "color": {
+      "background": {
+        "$value": "#0A246A",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#273e7b",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(20, 46, 122, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(96, 165, 250, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#3B82F6",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(59, 130, 246, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#60A5FA",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(96, 165, 250, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#3B82F6",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "6px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(59, 130, 246, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "WindroidTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "WindroidTheme",
+      "theme_name": "Windroid Theme for Windows 11",
+      "category": "LinkVegas (Obsidian Slate Dark)"
+    },
+    "color": {
+      "background": {
+        "$value": "#0B0F17",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#282b32",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(21, 25, 39, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(30, 41, 59, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(56, 189, 248, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#1E293B",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(30, 41, 59, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "12px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(56, 189, 248, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "Winos2.0Theme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "Winos2.0Theme",
+      "theme_name": "WinOS 2.0 Theme for Windows 11",
+      "category": "LinkVegas (Obsidian Slate Dark)"
+    },
+    "color": {
+      "background": {
+        "$value": "#0B0F17",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#282b32",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(21, 25, 39, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(30, 41, 59, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(56, 189, 248, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#1E293B",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(30, 41, 59, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "12px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(56, 189, 248, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "WinosV2Theme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "WinosV2Theme",
+      "theme_name": "WinOS v2 Theme For Windows 11",
+      "category": "LinkVegas (Obsidian Slate Dark)"
+    },
+    "color": {
+      "background": {
+        "$value": "#0B0F17",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#282b32",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(21, 25, 39, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(30, 41, 59, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(56, 189, 248, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#1E293B",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(30, 41, 59, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "12px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(56, 189, 248, 0.22)",
+        "$type": "dimension"
+      }
+    }
+  },
+  "XeonTheme": {
+    "meta": {
+      "generator": "Sora Theme Engine v3.0",
+      "theme_id": "XeonTheme",
+      "theme_name": "Xeon Theme For Windows 11",
+      "category": "LinkVegas (Obsidian Slate Dark)"
+    },
+    "color": {
+      "background": {
+        "$value": "#0B0F17",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#282b32",
+        "$type": "color"
+      },
+      "surface_glass": {
+        "$value": "rgba(21, 25, 39, 0.72)",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "rgba(30, 41, 59, 0.35)",
+        "$type": "color"
+      },
+      "primary": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "primary_glow": {
+        "$value": "rgba(56, 189, 248, 0.45)",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#1E293B",
+        "$type": "color"
+      },
+      "secondary_glow": {
+        "$value": "rgba(30, 41, 59, 0.45)",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#38BDF8",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#f8fafc",
+        "$type": "color"
+      },
+      "text_muted": {
+        "$value": "#94a3b8",
+        "$type": "color"
+      },
+      "text_dark": {
+        "$value": "#0f172a",
+        "$type": "color"
+      }
+    },
+    "effect": {
+      "blur": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "radius": {
+        "$value": "12px",
+        "$type": "dimension"
+      },
+      "box_shadow": {
+        "$value": "0 8px 32px 0 rgba(56, 189, 248, 0.22)",
         "$type": "dimension"
       }
     }

@@ -1,0 +1,11 @@
+﻿{
+    "Accent":  "#E4E4E7",
+    "Id":  "macOSSequoia",
+    "Border":  "#52525B",
+    "CornerRadius":  26,
+    "Category":  "LinkVegas Community Overhauls",
+    "Description":  "Cupertino pill dock with soft rounded finder window borders",
+    "Background":  "#18181B",
+    "Name":  "macOS Sequoia",
+    "IsFloating":  true
+}

@@ -1,0 +1,12 @@
+{
+  "Id": "NewModernWindows11Theme",
+  "Name": "New Modern Windows 11 Theme",
+  "Category": "LinkVegas (Obsidian Slate Dark)",
+  "Url": "https://www.linkvegastheme.com/modern-windows-11-theme/",
+  "Background": "#0B0F17",
+  "Accent": "#38BDF8",
+  "Border": "#1E293B",
+  "CornerRadius": 12,
+  "IsFloating": true,
+  "Description": "LinkVegas Obsidian Slate Dark overhauls with #38BDF8 accents."
+}

@@ -1,0 +1,12 @@
+{
+  "Id": "NemoTheme",
+  "Name": "Nemo Theme For Windows 11",
+  "Category": "LinkVegas (Obsidian Slate Dark)",
+  "Url": "https://www.linkvegastheme.com/nemo-theme-for-windows-11/",
+  "Background": "#0B0F17",
+  "Accent": "#38BDF8",
+  "Border": "#1E293B",
+  "CornerRadius": 12,
+  "IsFloating": true,
+  "Description": "LinkVegas Obsidian Slate Dark overhauls with #38BDF8 accents."
+}

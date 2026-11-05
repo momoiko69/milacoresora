@@ -56,3 +56,4 @@
 * `sora: <query>` — Design consultation or color palette generation.
 * `sora theme <name>` — Export a theme into modern web tokens.
 * `sora.cmd` — Local CLI command wrapper.
+

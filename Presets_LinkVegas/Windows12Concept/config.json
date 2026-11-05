@@ -1,0 +1,11 @@
+﻿{
+    "Accent":  "#38BDF8",
+    "Id":  "Windows12Concept",
+    "Border":  "#1E293B",
+    "CornerRadius":  24,
+    "Category":  "LinkVegas Community Overhauls",
+    "Description":  "Floating centered island taskbar with subtle backdrop drop-shadow",
+    "Background":  "#0F172A",
+    "Name":  "Windows 12 Concept",
+    "IsFloating":  true
+}

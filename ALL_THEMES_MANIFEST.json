@@ -1,0 +1,2630 @@
+{
+  "meta": {
+    "engine": "Sora Theme Engine v3.0",
+    "lead_agent": "Sora (\u7a7a - The Loom)",
+    "total_presets": 105,
+    "generated_at": "2026-11-05",
+    "architecture": "Universal Generative UI Design Tokens"
+  },
+  "themes": {
+    "ObsidianNeon": {
+      "name": "MilaCore Obsidian Neon (Default)",
+      "category": "MilaCore Signature",
+      "description": "The canonical MilaCore workstation aesthetic: deep carbon glass with electric cyan & violet telemetry.",
+      "colors": {
+        "background": "#0a0b10",
+        "surface": "#121420",
+        "surface_glass": "rgba(18, 20, 32, 0.72)",
+        "border": "rgba(168, 85, 247, 0.35)",
+        "primary": "#a855f7",
+        "primary_glow": "rgba(168, 85, 247, 0.45)",
+        "secondary": "#06b6d4",
+        "secondary_glow": "rgba(6, 182, 212, 0.45)",
+        "accent": "#f43f5e",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "20px",
+        "radius": "14px",
+        "box_shadow": "0 10px 35px 0 rgba(168, 85, 247, 0.22)"
+      }
+    },
+    "CyberpunkNeonGlossy": {
+      "name": "Cyberpunk Neon Glossy",
+      "category": "MilaUniverse",
+      "description": "Night City electric cyan and neon magenta on wet frosted glass.",
+      "colors": {
+        "background": "#0b0a14",
+        "surface": "#131124",
+        "surface_glass": "rgba(19, 17, 36, 0.75)",
+        "border": "rgba(0, 246, 255, 0.35)",
+        "primary": "#00f6ff",
+        "primary_glow": "rgba(0, 246, 255, 0.45)",
+        "secondary": "#ff0080",
+        "secondary_glow": "rgba(255, 0, 128, 0.45)",
+        "accent": "#ffe600",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "10px",
+        "box_shadow": "0 8px 32px 0 rgba(0, 246, 255, 0.25)"
+      }
+    },
+    "LiquidGlassTahoe": {
+      "name": "Liquid Glass Tahoe (macOS Tahoe Dark)",
+      "category": "MilaUniverse",
+      "description": "Ultra-sleek frosted liquid glass with deep sapphire ocean accents and silky blur.",
+      "colors": {
+        "background": "#05070e",
+        "surface": "#0d1322",
+        "surface_glass": "rgba(13, 19, 34, 0.65)",
+        "border": "rgba(255, 255, 255, 0.16)",
+        "primary": "#38bdf8",
+        "primary_glow": "rgba(56, 189, 248, 0.4)",
+        "secondary": "#6366f1",
+        "secondary_glow": "rgba(99, 102, 241, 0.4)",
+        "accent": "#0ea5e9",
+        "text": "#ffffff",
+        "text_muted": "#a0aec0",
+        "text_dark": "#020617"
+      },
+      "effects": {
+        "blur": "24px",
+        "radius": "16px",
+        "box_shadow": "0 12px 40px 0 rgba(56, 189, 248, 0.2)"
+      }
+    },
+    "DemonSlayerMatte": {
+      "name": "Demon Slayer Matte",
+      "category": "MilaUniverse",
+      "description": "Striking matte carbon black paired with vibrant Nichirin crimson and haori teal accents.",
+      "colors": {
+        "background": "#0c0a09",
+        "surface": "#1c1917",
+        "surface_glass": "rgba(28, 25, 23, 0.8)",
+        "border": "rgba(225, 29, 72, 0.35)",
+        "primary": "#e11d48",
+        "primary_glow": "rgba(225, 29, 72, 0.45)",
+        "secondary": "#0d9488",
+        "secondary_glow": "rgba(13, 148, 136, 0.45)",
+        "accent": "#f59e0b",
+        "text": "#fafaf9",
+        "text_muted": "#78716c",
+        "text_dark": "#0c0a09"
+      },
+      "effects": {
+        "blur": "8px",
+        "radius": "8px",
+        "box_shadow": "0 4px 20px 0 rgba(225, 29, 72, 0.2)"
+      }
+    },
+    "IronManGlossy": {
+      "name": "Iron Man Mark-LV Glossy",
+      "category": "MilaUniverse",
+      "description": "Stark Industries gold titanium alloy, deep crimson lacquer, and arc reactor cyan.",
+      "colors": {
+        "background": "#0a0305",
+        "surface": "#18060a",
+        "surface_glass": "rgba(24, 6, 10, 0.75)",
+        "border": "rgba(234, 179, 8, 0.35)",
+        "primary": "#eab308",
+        "primary_glow": "rgba(234, 179, 8, 0.45)",
+        "secondary": "#dc2626",
+        "secondary_glow": "rgba(220, 38, 38, 0.45)",
+        "accent": "#06b6d4",
+        "text": "#fef08a",
+        "text_muted": "#fca5a5",
+        "text_dark": "#450a0a"
+      },
+      "effects": {
+        "blur": "14px",
+        "radius": "10px",
+        "box_shadow": "0 8px 30px 0 rgba(234, 179, 8, 0.25)"
+      }
+    },
+    "TheMatrixMatte": {
+      "name": "The Matrix Digital Rain",
+      "category": "MilaUniverse",
+      "description": "Pure black obsidian terminal background with cascading digital phosphor greens.",
+      "colors": {
+        "background": "#020402",
+        "surface": "#050f07",
+        "surface_glass": "rgba(5, 15, 7, 0.85)",
+        "border": "rgba(34, 197, 94, 0.3)",
+        "primary": "#22c55e",
+        "primary_glow": "rgba(34, 197, 94, 0.5)",
+        "secondary": "#10b981",
+        "secondary_glow": "rgba(16, 185, 129, 0.45)",
+        "accent": "#86efac",
+        "text": "#dcfce7",
+        "text_muted": "#4ade80",
+        "text_dark": "#022c22"
+      },
+      "effects": {
+        "blur": "10px",
+        "radius": "6px",
+        "box_shadow": "0 0 25px rgba(34, 197, 94, 0.3)"
+      }
+    },
+    "DarkKnightMatte": {
+      "id": "DarkKnightMatte",
+      "name": "Batman Dark Knight",
+      "category": "MilaCore Signature Universe",
+      "description": "Matte carbon black with tactical bat-signal yellow",
+      "colors": {
+        "background": "#080808",
+        "surface": "#252525",
+        "surface_glass": "rgba(18, 18, 24, 0.72)",
+        "border": "rgba(58, 58, 64, 0.35)",
+        "primary": "#FFD700",
+        "primary_glow": "rgba(255, 215, 0, 0.45)",
+        "secondary": "#3A3A40",
+        "secondary_glow": "rgba(58, 58, 64, 0.45)",
+        "accent": "#FFD700",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "6px",
+        "box_shadow": "0 8px 32px 0 rgba(255, 215, 0, 0.22)"
+      }
+    },
+    "LiquidGlassNeonPrism": {
+      "id": "LiquidGlassNeonPrism",
+      "name": "Liquid Glass Neon Prism",
+      "category": "MilaCore Signature Universe",
+      "description": "Prism diamond acrylic with chromatic dispersion",
+      "colors": {
+        "background": "#0B051A",
+        "surface": "#282335",
+        "surface_glass": "rgba(21, 15, 42, 0.72)",
+        "border": "rgba(6, 182, 212, 0.35)",
+        "primary": "#A855F7",
+        "primary_glow": "rgba(168, 85, 247, 0.45)",
+        "secondary": "#06B6D4",
+        "secondary_glow": "rgba(6, 182, 212, 0.45)",
+        "accent": "#A855F7",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "24px",
+        "box_shadow": "0 8px 32px 0 rgba(168, 85, 247, 0.22)"
+      }
+    },
+    "LiquidWaterOceanic": {
+      "id": "LiquidWaterOceanic",
+      "name": "Liquid Water Oceanic",
+      "category": "MilaCore Signature Universe",
+      "description": "Fluid aquatic depth and translucent ocean ripple cyan",
+      "colors": {
+        "background": "#021420",
+        "surface": "#20303a",
+        "surface_glass": "rgba(12, 30, 48, 0.72)",
+        "border": "rgba(0, 82, 212, 0.35)",
+        "primary": "#00E5FF",
+        "primary_glow": "rgba(0, 229, 255, 0.45)",
+        "secondary": "#0052D4",
+        "secondary_glow": "rgba(0, 82, 212, 0.45)",
+        "accent": "#00E5FF",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "22px",
+        "box_shadow": "0 8px 32px 0 rgba(0, 229, 255, 0.22)"
+      }
+    },
+    "SpiderManGlossy": {
+      "id": "SpiderManGlossy",
+      "name": "Spider-Man Glossy",
+      "category": "MilaCore Signature Universe",
+      "description": "Web red and Queens spider-blue on midnight violet",
+      "colors": {
+        "background": "#080816",
+        "surface": "#252531",
+        "surface_glass": "rgba(18, 18, 38, 0.72)",
+        "border": "rgba(43, 72, 170, 0.35)",
+        "primary": "#E30613",
+        "primary_glow": "rgba(227, 6, 19, 0.45)",
+        "secondary": "#2B48AA",
+        "secondary_glow": "rgba(43, 72, 170, 0.45)",
+        "accent": "#E30613",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "16px",
+        "box_shadow": "0 8px 32px 0 rgba(227, 6, 19, 0.22)"
+      }
+    },
+    "SpringSakuraLight": {
+      "id": "SpringSakuraLight",
+      "name": "Spring Sakura",
+      "category": "MilaCore Signature Universe",
+      "description": "Translucent petal mist with rose quartz and sprout emerald",
+      "colors": {
+        "background": "#FFF5F8",
+        "surface": "#fff6f8",
+        "surface_glass": "rgba(265, 255, 264, 0.72)",
+        "border": "rgba(0, 184, 148, 0.35)",
+        "primary": "#E84393",
+        "primary_glow": "rgba(232, 67, 147, 0.45)",
+        "secondary": "#00B894",
+        "secondary_glow": "rgba(0, 184, 148, 0.45)",
+        "accent": "#E84393",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "20px",
+        "box_shadow": "0 8px 32px 0 rgba(232, 67, 147, 0.22)"
+      }
+    },
+    "SummerBreezeLight": {
+      "id": "SummerBreezeLight",
+      "name": "Summer Breeze",
+      "category": "MilaCore Signature Universe",
+      "description": "Mediterranean summer sky with coastal cerulean and gold",
+      "colors": {
+        "background": "#F0F8FF",
+        "surface": "#f1f8ff",
+        "surface_glass": "rgba(250, 258, 271, 0.72)",
+        "border": "rgba(243, 156, 18, 0.35)",
+        "primary": "#0984E3",
+        "primary_glow": "rgba(9, 132, 227, 0.45)",
+        "secondary": "#F39C12",
+        "secondary_glow": "rgba(243, 156, 18, 0.45)",
+        "accent": "#0984E3",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "18px",
+        "box_shadow": "0 8px 32px 0 rgba(9, 132, 227, 0.22)"
+      }
+    },
+    "ThanosMetallic": {
+      "id": "ThanosMetallic",
+      "name": "Thanos Metallic",
+      "category": "MilaCore Signature Universe",
+      "description": "Titan conqueror violet and infinity stone gold",
+      "colors": {
+        "background": "#0D061A",
+        "surface": "#2a2335",
+        "surface_glass": "rgba(23, 16, 42, 0.72)",
+        "border": "rgba(212, 175, 55, 0.35)",
+        "primary": "#7C4DFF",
+        "primary_glow": "rgba(124, 77, 255, 0.45)",
+        "secondary": "#D4AF37",
+        "secondary_glow": "rgba(212, 175, 55, 0.45)",
+        "accent": "#7C4DFF",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "12px",
+        "box_shadow": "0 8px 32px 0 rgba(124, 77, 255, 0.22)"
+      }
+    },
+    "TheJokerChaos": {
+      "id": "TheJokerChaos",
+      "name": "The Joker Chaos",
+      "category": "MilaCore Signature Universe",
+      "description": "Arkham royal purple and acid green on velvet midnight",
+      "colors": {
+        "background": "#0A0412",
+        "surface": "#27222e",
+        "surface_glass": "rgba(20, 14, 34, 0.72)",
+        "border": "rgba(0, 168, 107, 0.35)",
+        "primary": "#6A0DAD",
+        "primary_glow": "rgba(106, 13, 173, 0.45)",
+        "secondary": "#00A86B",
+        "secondary_glow": "rgba(0, 168, 107, 0.45)",
+        "accent": "#6A0DAD",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "14px",
+        "box_shadow": "0 8px 32px 0 rgba(106, 13, 173, 0.22)"
+      }
+    },
+    "WinterFrost": {
+      "id": "WinterFrost",
+      "name": "Winter Frost",
+      "category": "MilaCore Signature Universe",
+      "description": "Subzero glacial crystal cyan and arctic permafrost",
+      "colors": {
+        "background": "#081018",
+        "surface": "#252c33",
+        "surface_glass": "rgba(18, 26, 40, 0.72)",
+        "border": "rgba(100, 150, 200, 0.35)",
+        "primary": "#B4DCFF",
+        "primary_glow": "rgba(180, 220, 255, 0.45)",
+        "secondary": "#6496C8",
+        "secondary_glow": "rgba(100, 150, 200, 0.45)",
+        "accent": "#B4DCFF",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "18px",
+        "box_shadow": "0 8px 32px 0 rgba(180, 220, 255, 0.22)"
+      }
+    },
+    "3dPurpleTheme": {
+      "id": "3dPurpleTheme",
+      "name": "3D Purple Theme For Windows 11",
+      "category": "LinkVegas (Neon Violet / Purple)",
+      "description": "LinkVegas Neon Violet / Purple overhauls with #A855F7 accents.",
+      "colors": {
+        "background": "#0C0617",
+        "surface": "#292332",
+        "surface_glass": "rgba(22, 16, 39, 0.72)",
+        "border": "rgba(124, 58, 237, 0.35)",
+        "primary": "#A855F7",
+        "primary_glow": "rgba(168, 85, 247, 0.45)",
+        "secondary": "#7C3AED",
+        "secondary_glow": "rgba(124, 58, 237, 0.45)",
+        "accent": "#A855F7",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "16px",
+        "box_shadow": "0 8px 32px 0 rgba(168, 85, 247, 0.22)"
+      }
+    },
+    "AeroGlassTheme": {
+      "id": "AeroGlassTheme",
+      "name": "Aero Glass Theme For Windows 11",
+      "category": "LinkVegas (Translucent Glass UI)",
+      "description": "LinkVegas Translucent Glass UI overhauls with #00F2FE accents.",
+      "colors": {
+        "background": "#060D1A",
+        "surface": "#232a35",
+        "surface_glass": "rgba(16, 23, 42, 0.72)",
+        "border": "rgba(5, 213, 255, 0.35)",
+        "primary": "#00F2FE",
+        "primary_glow": "rgba(0, 242, 254, 0.45)",
+        "secondary": "#05D5FF",
+        "secondary_glow": "rgba(5, 213, 255, 0.45)",
+        "accent": "#00F2FE",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "22px",
+        "box_shadow": "0 8px 32px 0 rgba(0, 242, 254, 0.22)"
+      }
+    },
+    "AeroliteWindows9InspiredMinimalUiTheme": {
+      "id": "AeroliteWindows9InspiredMinimalUiTheme",
+      "name": "AeroLite Theme for Windows 11 \u2013 Windows 9 Inspired Minimal UI",
+      "category": "LinkVegas (Obsidian Slate Dark)",
+      "description": "LinkVegas Obsidian Slate Dark overhauls with #38BDF8 accents.",
+      "colors": {
+        "background": "#0B0F17",
+        "surface": "#282b32",
+        "surface_glass": "rgba(21, 25, 39, 0.72)",
+        "border": "rgba(30, 41, 59, 0.35)",
+        "primary": "#38BDF8",
+        "primary_glow": "rgba(56, 189, 248, 0.45)",
+        "secondary": "#1E293B",
+        "secondary_glow": "rgba(30, 41, 59, 0.45)",
+        "accent": "#38BDF8",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "12px",
+        "box_shadow": "0 8px 32px 0 rgba(56, 189, 248, 0.22)"
+      }
+    },
+    "AioPurpleCustomizationTheme": {
+      "id": "AioPurpleCustomizationTheme",
+      "name": "AIO Theme For Windows 11 \u2013 Amazing Purple Customization Theme",
+      "category": "LinkVegas (Neon Violet / Purple)",
+      "description": "LinkVegas Neon Violet / Purple overhauls with #A855F7 accents.",
+      "colors": {
+        "background": "#0C0617",
+        "surface": "#292332",
+        "surface_glass": "rgba(22, 16, 39, 0.72)",
+        "border": "rgba(124, 58, 237, 0.35)",
+        "primary": "#A855F7",
+        "primary_glow": "rgba(168, 85, 247, 0.45)",
+        "secondary": "#7C3AED",
+        "secondary_glow": "rgba(124, 58, 237, 0.45)",
+        "accent": "#A855F7",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "16px",
+        "box_shadow": "0 8px 32px 0 rgba(168, 85, 247, 0.22)"
+      }
+    },
+    "ArcAccentDarkTheme": {
+      "id": "ArcAccentDarkTheme",
+      "name": "Arc Accent Dark Theme For Windows 11",
+      "category": "LinkVegas (Obsidian Slate Dark)",
+      "description": "LinkVegas Obsidian Slate Dark overhauls with #38BDF8 accents.",
+      "colors": {
+        "background": "#0B0F17",
+        "surface": "#282b32",
+        "surface_glass": "rgba(21, 25, 39, 0.72)",
+        "border": "rgba(30, 41, 59, 0.35)",
+        "primary": "#38BDF8",
+        "primary_glow": "rgba(56, 189, 248, 0.45)",
+        "secondary": "#1E293B",
+        "secondary_glow": "rgba(30, 41, 59, 0.45)",
+        "accent": "#38BDF8",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "12px",
+        "box_shadow": "0 8px 32px 0 rgba(56, 189, 248, 0.22)"
+      }
+    },
+    "AresGlass": {
+      "id": "AresGlass",
+      "name": "Ares Glass UI",
+      "category": "LinkVegas Community Overhauls",
+      "description": "High-translucency see-through glass with cyan aura",
+      "colors": {
+        "background": "#0B1320",
+        "surface": "#282f3a",
+        "surface_glass": "rgba(21, 29, 48, 0.72)",
+        "border": "rgba(5, 213, 255, 0.35)",
+        "primary": "#00F2FE",
+        "primary_glow": "rgba(0, 242, 254, 0.45)",
+        "secondary": "#05D5FF",
+        "secondary_glow": "rgba(5, 213, 255, 0.45)",
+        "accent": "#00F2FE",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "20px",
+        "box_shadow": "0 8px 32px 0 rgba(0, 242, 254, 0.22)"
+      }
+    },
+    "AresGlassUiTheme": {
+      "id": "AresGlassUiTheme",
+      "name": "Ares Theme For Windows 11 \u2013 Stunning Glass UI",
+      "category": "LinkVegas (Translucent Glass UI)",
+      "description": "LinkVegas Translucent Glass UI overhauls with #00F2FE accents.",
+      "colors": {
+        "background": "#060D1A",
+        "surface": "#232a35",
+        "surface_glass": "rgba(16, 23, 42, 0.72)",
+        "border": "rgba(5, 213, 255, 0.35)",
+        "primary": "#00F2FE",
+        "primary_glow": "rgba(0, 242, 254, 0.45)",
+        "secondary": "#05D5FF",
+        "secondary_glow": "rgba(5, 213, 255, 0.45)",
+        "accent": "#00F2FE",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "22px",
+        "box_shadow": "0 8px 32px 0 rgba(0, 242, 254, 0.22)"
+      }
+    },
+    "AshesTheme": {
+      "id": "AshesTheme",
+      "name": "Ashes Theme For Windows 11",
+      "category": "LinkVegas (Obsidian Slate Dark)",
+      "description": "LinkVegas Obsidian Slate Dark overhauls with #38BDF8 accents.",
+      "colors": {
+        "background": "#0B0F17",
+        "surface": "#282b32",
+        "surface_glass": "rgba(21, 25, 39, 0.72)",
+        "border": "rgba(30, 41, 59, 0.35)",
+        "primary": "#38BDF8",
+        "primary_glow": "rgba(56, 189, 248, 0.45)",
+        "secondary": "#1E293B",
+        "secondary_glow": "rgba(30, 41, 59, 0.45)",
+        "accent": "#38BDF8",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "12px",
+        "box_shadow": "0 8px 32px 0 rgba(56, 189, 248, 0.22)"
+      }
+    },
+    "BluefluxTheme": {
+      "id": "BluefluxTheme",
+      "name": "Amazing BlueFlux Theme For Windows 11",
+      "category": "LinkVegas (Oceanic Deep Blue)",
+      "description": "LinkVegas Oceanic Deep Blue overhauls with #0284C7 accents.",
+      "colors": {
+        "background": "#040D1E",
+        "surface": "#222a39",
+        "surface_glass": "rgba(14, 23, 46, 0.72)",
+        "border": "rgba(56, 189, 248, 0.35)",
+        "primary": "#0284C7",
+        "primary_glow": "rgba(2, 132, 199, 0.45)",
+        "secondary": "#38BDF8",
+        "secondary_glow": "rgba(56, 189, 248, 0.45)",
+        "accent": "#0284C7",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "18px",
+        "box_shadow": "0 8px 32px 0 rgba(2, 132, 199, 0.22)"
+      }
+    },
+    "BluesolarTheme": {
+      "id": "BluesolarTheme",
+      "name": "Bluesolar Theme for Windows 11",
+      "category": "LinkVegas (Oceanic Deep Blue)",
+      "description": "LinkVegas Oceanic Deep Blue overhauls with #0284C7 accents.",
+      "colors": {
+        "background": "#040D1E",
+        "surface": "#222a39",
+        "surface_glass": "rgba(14, 23, 46, 0.72)",
+        "border": "rgba(56, 189, 248, 0.35)",
+        "primary": "#0284C7",
+        "primary_glow": "rgba(2, 132, 199, 0.45)",
+        "secondary": "#38BDF8",
+        "secondary_glow": "rgba(56, 189, 248, 0.45)",
+        "accent": "#0284C7",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "18px",
+        "box_shadow": "0 8px 32px 0 rgba(2, 132, 199, 0.22)"
+      }
+    },
+    "ChloromateTheme": {
+      "id": "ChloromateTheme",
+      "name": "Amazing Chloromate Theme For Windows 11",
+      "category": "LinkVegas (Emerald / Botanical)",
+      "description": "LinkVegas Emerald / Botanical overhauls with #10B981 accents.",
+      "colors": {
+        "background": "#05140C",
+        "surface": "#233029",
+        "surface_glass": "rgba(15, 30, 28, 0.72)",
+        "border": "rgba(52, 211, 153, 0.35)",
+        "primary": "#10B981",
+        "primary_glow": "rgba(16, 185, 129, 0.45)",
+        "secondary": "#34D399",
+        "secondary_glow": "rgba(52, 211, 153, 0.45)",
+        "accent": "#10B981",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "14px",
+        "box_shadow": "0 8px 32px 0 rgba(16, 185, 129, 0.22)"
+      }
+    },
+    "ColorVerseWindows1124h2Theme": {
+      "id": "ColorVerseWindows1124h2Theme",
+      "name": "Color Verse Windows 11 Theme 24h2",
+      "category": "LinkVegas (Pastel & Vibrant)",
+      "description": "LinkVegas Pastel & Vibrant overhauls with #F472B6 accents.",
+      "colors": {
+        "background": "#140A12",
+        "surface": "#30272e",
+        "surface_glass": "rgba(30, 20, 34, 0.72)",
+        "border": "rgba(236, 72, 153, 0.35)",
+        "primary": "#F472B6",
+        "primary_glow": "rgba(244, 114, 182, 0.45)",
+        "secondary": "#EC4899",
+        "secondary_glow": "rgba(236, 72, 153, 0.45)",
+        "accent": "#F472B6",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "20px",
+        "box_shadow": "0 8px 32px 0 rgba(244, 114, 182, 0.22)"
+      }
+    },
+    "CrystalGlassTheme": {
+      "id": "CrystalGlassTheme",
+      "name": "Crystal Glass Theme For Windows 11",
+      "category": "LinkVegas (Translucent Glass UI)",
+      "description": "LinkVegas Translucent Glass UI overhauls with #00F2FE accents.",
+      "colors": {
+        "background": "#060D1A",
+        "surface": "#232a35",
+        "surface_glass": "rgba(16, 23, 42, 0.72)",
+        "border": "rgba(5, 213, 255, 0.35)",
+        "primary": "#00F2FE",
+        "primary_glow": "rgba(0, 242, 254, 0.45)",
+        "secondary": "#05D5FF",
+        "secondary_glow": "rgba(5, 213, 255, 0.45)",
+        "accent": "#00F2FE",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "22px",
+        "box_shadow": "0 8px 32px 0 rgba(0, 242, 254, 0.22)"
+      }
+    },
+    "DelightTheme": {
+      "id": "DelightTheme",
+      "name": "Delight Theme For Windows 11",
+      "category": "LinkVegas (Pastel & Vibrant)",
+      "description": "LinkVegas Pastel & Vibrant overhauls with #F472B6 accents.",
+      "colors": {
+        "background": "#140A12",
+        "surface": "#30272e",
+        "surface_glass": "rgba(30, 20, 34, 0.72)",
+        "border": "rgba(236, 72, 153, 0.35)",
+        "primary": "#F472B6",
+        "primary_glow": "rgba(244, 114, 182, 0.45)",
+        "secondary": "#EC4899",
+        "secondary_glow": "rgba(236, 72, 153, 0.45)",
+        "accent": "#F472B6",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "20px",
+        "box_shadow": "0 8px 32px 0 rgba(244, 114, 182, 0.22)"
+      }
+    },
+    "DragonKnightTheme": {
+      "id": "DragonKnightTheme",
+      "name": "Dragon Knight Theme For Windows 11",
+      "category": "LinkVegas (Aggressive Gaming)",
+      "description": "LinkVegas Aggressive Gaming overhauls with #FF1E42 accents.",
+      "colors": {
+        "background": "#0B0B10",
+        "surface": "#28282c",
+        "surface_glass": "rgba(21, 21, 32, 0.72)",
+        "border": "rgba(230, 0, 38, 0.35)",
+        "primary": "#FF1E42",
+        "primary_glow": "rgba(255, 30, 66, 0.45)",
+        "secondary": "#E60026",
+        "secondary_glow": "rgba(230, 0, 38, 0.45)",
+        "accent": "#FF1E42",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "8px",
+        "box_shadow": "0 8px 32px 0 rgba(255, 30, 66, 0.22)"
+      }
+    },
+    "EverforestTheme": {
+      "id": "EverforestTheme",
+      "name": "Everforest Theme for Windows 11",
+      "category": "LinkVegas (Emerald / Botanical)",
+      "description": "LinkVegas Emerald / Botanical overhauls with #10B981 accents.",
+      "colors": {
+        "background": "#05140C",
+        "surface": "#233029",
+        "surface_glass": "rgba(15, 30, 28, 0.72)",
+        "border": "rgba(52, 211, 153, 0.35)",
+        "primary": "#10B981",
+        "primary_glow": "rgba(16, 185, 129, 0.45)",
+        "secondary": "#34D399",
+        "secondary_glow": "rgba(52, 211, 153, 0.45)",
+        "accent": "#10B981",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "14px",
+        "box_shadow": "0 8px 32px 0 rgba(16, 185, 129, 0.22)"
+      }
+    },
+    "EvoTheme": {
+      "id": "EvoTheme",
+      "name": "EVO Theme For Windows 11",
+      "category": "LinkVegas (Obsidian Slate Dark)",
+      "description": "LinkVegas Obsidian Slate Dark overhauls with #38BDF8 accents.",
+      "colors": {
+        "background": "#0B0F17",
+        "surface": "#282b32",
+        "surface_glass": "rgba(21, 25, 39, 0.72)",
+        "border": "rgba(30, 41, 59, 0.35)",
+        "primary": "#38BDF8",
+        "primary_glow": "rgba(56, 189, 248, 0.45)",
+        "secondary": "#1E293B",
+        "secondary_glow": "rgba(30, 41, 59, 0.45)",
+        "accent": "#38BDF8",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "12px",
+        "box_shadow": "0 8px 32px 0 rgba(56, 189, 248, 0.22)"
+      }
+    },
+    "Fluent2.0Theme": {
+      "id": "Fluent2.0Theme",
+      "name": "Fluent 2.0 Theme for Windows 11",
+      "category": "LinkVegas (Obsidian Slate Dark)",
+      "description": "LinkVegas Obsidian Slate Dark overhauls with #38BDF8 accents.",
+      "colors": {
+        "background": "#0B0F17",
+        "surface": "#282b32",
+        "surface_glass": "rgba(21, 25, 39, 0.72)",
+        "border": "rgba(30, 41, 59, 0.35)",
+        "primary": "#38BDF8",
+        "primary_glow": "rgba(56, 189, 248, 0.45)",
+        "secondary": "#1E293B",
+        "secondary_glow": "rgba(30, 41, 59, 0.45)",
+        "accent": "#38BDF8",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "12px",
+        "box_shadow": "0 8px 32px 0 rgba(56, 189, 248, 0.22)"
+      }
+    },
+    "FluentPinkTheme": {
+      "id": "FluentPinkTheme",
+      "name": "Fluent Pink Theme For windows 11",
+      "category": "LinkVegas (Pastel & Vibrant)",
+      "description": "LinkVegas Pastel & Vibrant overhauls with #F472B6 accents.",
+      "colors": {
+        "background": "#140A12",
+        "surface": "#30272e",
+        "surface_glass": "rgba(30, 20, 34, 0.72)",
+        "border": "rgba(236, 72, 153, 0.35)",
+        "primary": "#F472B6",
+        "primary_glow": "rgba(244, 114, 182, 0.45)",
+        "secondary": "#EC4899",
+        "secondary_glow": "rgba(236, 72, 153, 0.45)",
+        "accent": "#F472B6",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "20px",
+        "box_shadow": "0 8px 32px 0 rgba(244, 114, 182, 0.22)"
+      }
+    },
+    "FluentTheme": {
+      "id": "FluentTheme",
+      "name": "Fluent Theme for Windows 11",
+      "category": "LinkVegas (Obsidian Slate Dark)",
+      "description": "LinkVegas Obsidian Slate Dark overhauls with #38BDF8 accents.",
+      "colors": {
+        "background": "#0B0F17",
+        "surface": "#282b32",
+        "surface_glass": "rgba(21, 25, 39, 0.72)",
+        "border": "rgba(30, 41, 59, 0.35)",
+        "primary": "#38BDF8",
+        "primary_glow": "rgba(56, 189, 248, 0.45)",
+        "secondary": "#1E293B",
+        "secondary_glow": "rgba(30, 41, 59, 0.45)",
+        "accent": "#38BDF8",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "12px",
+        "box_shadow": "0 8px 32px 0 rgba(56, 189, 248, 0.22)"
+      }
+    },
+    "FrostedGlassDarkTheme": {
+      "id": "FrostedGlassDarkTheme",
+      "name": "Frosted Glass Dark Theme For Windows 11",
+      "category": "LinkVegas (Translucent Glass UI)",
+      "description": "LinkVegas Translucent Glass UI overhauls with #00F2FE accents.",
+      "colors": {
+        "background": "#060D1A",
+        "surface": "#232a35",
+        "surface_glass": "rgba(16, 23, 42, 0.72)",
+        "border": "rgba(5, 213, 255, 0.35)",
+        "primary": "#00F2FE",
+        "primary_glow": "rgba(0, 242, 254, 0.45)",
+        "secondary": "#05D5FF",
+        "secondary_glow": "rgba(5, 213, 255, 0.45)",
+        "accent": "#00F2FE",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "22px",
+        "box_shadow": "0 8px 32px 0 rgba(0, 242, 254, 0.22)"
+      }
+    },
+    "FrostedGlassTheme": {
+      "id": "FrostedGlassTheme",
+      "name": "Frosted Glass Theme For Windows 11",
+      "category": "LinkVegas (Translucent Glass UI)",
+      "description": "LinkVegas Translucent Glass UI overhauls with #00F2FE accents.",
+      "colors": {
+        "background": "#060D1A",
+        "surface": "#232a35",
+        "surface_glass": "rgba(16, 23, 42, 0.72)",
+        "border": "rgba(5, 213, 255, 0.35)",
+        "primary": "#00F2FE",
+        "primary_glow": "rgba(0, 242, 254, 0.45)",
+        "secondary": "#05D5FF",
+        "secondary_glow": "rgba(5, 213, 255, 0.45)",
+        "accent": "#00F2FE",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "22px",
+        "box_shadow": "0 8px 32px 0 rgba(0, 242, 254, 0.22)"
+      }
+    },
+    "FutureVisionTheme": {
+      "id": "FutureVisionTheme",
+      "name": "Future Vision Theme For Windows 11",
+      "category": "LinkVegas (Obsidian Slate Dark)",
+      "description": "LinkVegas Obsidian Slate Dark overhauls with #38BDF8 accents.",
+      "colors": {
+        "background": "#0B0F17",
+        "surface": "#282b32",
+        "surface_glass": "rgba(21, 25, 39, 0.72)",
+        "border": "rgba(30, 41, 59, 0.35)",
+        "primary": "#38BDF8",
+        "primary_glow": "rgba(56, 189, 248, 0.45)",
+        "secondary": "#1E293B",
+        "secondary_glow": "rgba(30, 41, 59, 0.45)",
+        "accent": "#38BDF8",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "12px",
+        "box_shadow": "0 8px 32px 0 rgba(56, 189, 248, 0.22)"
+      }
+    },
+    "GlassifyTheme": {
+      "id": "GlassifyTheme",
+      "name": "Glassify Theme For Windows 11",
+      "category": "LinkVegas (Translucent Glass UI)",
+      "description": "LinkVegas Translucent Glass UI overhauls with #00F2FE accents.",
+      "colors": {
+        "background": "#060D1A",
+        "surface": "#232a35",
+        "surface_glass": "rgba(16, 23, 42, 0.72)",
+        "border": "rgba(5, 213, 255, 0.35)",
+        "primary": "#00F2FE",
+        "primary_glow": "rgba(0, 242, 254, 0.45)",
+        "secondary": "#05D5FF",
+        "secondary_glow": "rgba(5, 213, 255, 0.45)",
+        "accent": "#00F2FE",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "22px",
+        "box_shadow": "0 8px 32px 0 rgba(0, 242, 254, 0.22)"
+      }
+    },
+    "GorudaTheme": {
+      "id": "GorudaTheme",
+      "name": "GORUDA Theme for Windows 11",
+      "category": "LinkVegas (Obsidian Slate Dark)",
+      "description": "LinkVegas Obsidian Slate Dark overhauls with #38BDF8 accents.",
+      "colors": {
+        "background": "#0B0F17",
+        "surface": "#282b32",
+        "surface_glass": "rgba(21, 25, 39, 0.72)",
+        "border": "rgba(30, 41, 59, 0.35)",
+        "primary": "#38BDF8",
+        "primary_glow": "rgba(56, 189, 248, 0.45)",
+        "secondary": "#1E293B",
+        "secondary_glow": "rgba(30, 41, 59, 0.45)",
+        "accent": "#38BDF8",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "12px",
+        "box_shadow": "0 8px 32px 0 rgba(56, 189, 248, 0.22)"
+      }
+    },
+    "GorudaV2Theme": {
+      "id": "GorudaV2Theme",
+      "name": "Goruda Theme v2 for Windows 11",
+      "category": "LinkVegas (Obsidian Slate Dark)",
+      "description": "LinkVegas Obsidian Slate Dark overhauls with #38BDF8 accents.",
+      "colors": {
+        "background": "#0B0F17",
+        "surface": "#282b32",
+        "surface_glass": "rgba(21, 25, 39, 0.72)",
+        "border": "rgba(30, 41, 59, 0.35)",
+        "primary": "#38BDF8",
+        "primary_glow": "rgba(56, 189, 248, 0.45)",
+        "secondary": "#1E293B",
+        "secondary_glow": "rgba(30, 41, 59, 0.45)",
+        "accent": "#38BDF8",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "12px",
+        "box_shadow": "0 8px 32px 0 rgba(56, 189, 248, 0.22)"
+      }
+    },
+    "Gradient24h2Theme": {
+      "id": "Gradient24h2Theme",
+      "name": "Gradient Theme For Windows 11 24H2",
+      "category": "LinkVegas (Obsidian Slate Dark)",
+      "description": "LinkVegas Obsidian Slate Dark overhauls with #38BDF8 accents.",
+      "colors": {
+        "background": "#0B0F17",
+        "surface": "#282b32",
+        "surface_glass": "rgba(21, 25, 39, 0.72)",
+        "border": "rgba(30, 41, 59, 0.35)",
+        "primary": "#38BDF8",
+        "primary_glow": "rgba(56, 189, 248, 0.45)",
+        "secondary": "#1E293B",
+        "secondary_glow": "rgba(30, 41, 59, 0.45)",
+        "accent": "#38BDF8",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "12px",
+        "box_shadow": "0 8px 32px 0 rgba(56, 189, 248, 0.22)"
+      }
+    },
+    "GrapeTheme": {
+      "id": "GrapeTheme",
+      "name": "Grape Theme For Windows 11",
+      "category": "LinkVegas (Neon Violet / Purple)",
+      "description": "LinkVegas Neon Violet / Purple overhauls with #A855F7 accents.",
+      "colors": {
+        "background": "#0C0617",
+        "surface": "#292332",
+        "surface_glass": "rgba(22, 16, 39, 0.72)",
+        "border": "rgba(124, 58, 237, 0.35)",
+        "primary": "#A855F7",
+        "primary_glow": "rgba(168, 85, 247, 0.45)",
+        "secondary": "#7C3AED",
+        "secondary_glow": "rgba(124, 58, 237, 0.45)",
+        "accent": "#A855F7",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "16px",
+        "box_shadow": "0 8px 32px 0 rgba(168, 85, 247, 0.22)"
+      }
+    },
+    "GravityTheme": {
+      "id": "GravityTheme",
+      "name": "Gravity Theme For Windows 11",
+      "category": "LinkVegas (Obsidian Slate Dark)",
+      "description": "LinkVegas Obsidian Slate Dark overhauls with #38BDF8 accents.",
+      "colors": {
+        "background": "#0B0F17",
+        "surface": "#282b32",
+        "surface_glass": "rgba(21, 25, 39, 0.72)",
+        "border": "rgba(30, 41, 59, 0.35)",
+        "primary": "#38BDF8",
+        "primary_glow": "rgba(56, 189, 248, 0.45)",
+        "secondary": "#1E293B",
+        "secondary_glow": "rgba(30, 41, 59, 0.45)",
+        "accent": "#38BDF8",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "12px",
+        "box_shadow": "0 8px 32px 0 rgba(56, 189, 248, 0.22)"
+      }
+    },
+    "HarmonyTheme": {
+      "id": "HarmonyTheme",
+      "name": "Harmony Theme For Windows 11",
+      "category": "LinkVegas (Pastel & Vibrant)",
+      "description": "LinkVegas Pastel & Vibrant overhauls with #F472B6 accents.",
+      "colors": {
+        "background": "#140A12",
+        "surface": "#30272e",
+        "surface_glass": "rgba(30, 20, 34, 0.72)",
+        "border": "rgba(236, 72, 153, 0.35)",
+        "primary": "#F472B6",
+        "primary_glow": "rgba(244, 114, 182, 0.45)",
+        "secondary": "#EC4899",
+        "secondary_glow": "rgba(236, 72, 153, 0.45)",
+        "accent": "#F472B6",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "20px",
+        "box_shadow": "0 8px 32px 0 rgba(244, 114, 182, 0.22)"
+      }
+    },
+    "InfinityWindows11Theme": {
+      "id": "InfinityWindows11Theme",
+      "name": "Infinity Windows 11 Theme",
+      "category": "LinkVegas (Obsidian Slate Dark)",
+      "description": "LinkVegas Obsidian Slate Dark overhauls with #38BDF8 accents.",
+      "colors": {
+        "background": "#0B0F17",
+        "surface": "#282b32",
+        "surface_glass": "rgba(21, 25, 39, 0.72)",
+        "border": "rgba(30, 41, 59, 0.35)",
+        "primary": "#38BDF8",
+        "primary_glow": "rgba(56, 189, 248, 0.45)",
+        "secondary": "#1E293B",
+        "secondary_glow": "rgba(30, 41, 59, 0.45)",
+        "accent": "#38BDF8",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "12px",
+        "box_shadow": "0 8px 32px 0 rgba(56, 189, 248, 0.22)"
+      }
+    },
+    "JadeJubileeWindows11Theme": {
+      "id": "JadeJubileeWindows11Theme",
+      "name": "Jade Jubilee Windows 11 Theme",
+      "category": "LinkVegas (Emerald / Botanical)",
+      "description": "LinkVegas Emerald / Botanical overhauls with #10B981 accents.",
+      "colors": {
+        "background": "#05140C",
+        "surface": "#233029",
+        "surface_glass": "rgba(15, 30, 28, 0.72)",
+        "border": "rgba(52, 211, 153, 0.35)",
+        "primary": "#10B981",
+        "primary_glow": "rgba(16, 185, 129, 0.45)",
+        "secondary": "#34D399",
+        "secondary_glow": "rgba(52, 211, 153, 0.45)",
+        "accent": "#10B981",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "14px",
+        "box_shadow": "0 8px 32px 0 rgba(16, 185, 129, 0.22)"
+      }
+    },
+    "LinnerTheme": {
+      "id": "LinnerTheme",
+      "name": "Linner Theme For Windows 11",
+      "category": "LinkVegas (Obsidian Slate Dark)",
+      "description": "LinkVegas Obsidian Slate Dark overhauls with #38BDF8 accents.",
+      "colors": {
+        "background": "#0B0F17",
+        "surface": "#282b32",
+        "surface_glass": "rgba(21, 25, 39, 0.72)",
+        "border": "rgba(30, 41, 59, 0.35)",
+        "primary": "#38BDF8",
+        "primary_glow": "rgba(56, 189, 248, 0.45)",
+        "secondary": "#1E293B",
+        "secondary_glow": "rgba(30, 41, 59, 0.45)",
+        "accent": "#38BDF8",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "12px",
+        "box_shadow": "0 8px 32px 0 rgba(56, 189, 248, 0.22)"
+      }
+    },
+    "LinuxTheme": {
+      "id": "LinuxTheme",
+      "name": "Linux Theme For Windows 11",
+      "category": "LinkVegas (Obsidian Slate Dark)",
+      "description": "LinkVegas Obsidian Slate Dark overhauls with #38BDF8 accents.",
+      "colors": {
+        "background": "#0B0F17",
+        "surface": "#282b32",
+        "surface_glass": "rgba(21, 25, 39, 0.72)",
+        "border": "rgba(30, 41, 59, 0.35)",
+        "primary": "#38BDF8",
+        "primary_glow": "rgba(56, 189, 248, 0.45)",
+        "secondary": "#1E293B",
+        "secondary_glow": "rgba(30, 41, 59, 0.45)",
+        "accent": "#38BDF8",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "12px",
+        "box_shadow": "0 8px 32px 0 rgba(56, 189, 248, 0.22)"
+      }
+    },
+    "LiquidGlassTheme": {
+      "id": "LiquidGlassTheme",
+      "name": "Liquid Glass Ultimate Theme For Windows 11",
+      "category": "LinkVegas (Translucent Glass UI)",
+      "description": "LinkVegas Translucent Glass UI overhauls with #00F2FE accents.",
+      "colors": {
+        "background": "#060D1A",
+        "surface": "#232a35",
+        "surface_glass": "rgba(16, 23, 42, 0.72)",
+        "border": "rgba(5, 213, 255, 0.35)",
+        "primary": "#00F2FE",
+        "primary_glow": "rgba(0, 242, 254, 0.45)",
+        "secondary": "#05D5FF",
+        "secondary_glow": "rgba(5, 213, 255, 0.45)",
+        "accent": "#00F2FE",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "22px",
+        "box_shadow": "0 8px 32px 0 rgba(0, 242, 254, 0.22)"
+      }
+    },
+    "LiquidGlassThemev2": {
+      "id": "LiquidGlassThemev2",
+      "name": "Liquid Glass Theme for Windows 11",
+      "category": "LinkVegas (Translucent Glass UI)",
+      "description": "LinkVegas Translucent Glass UI overhauls with #00F2FE accents.",
+      "colors": {
+        "background": "#060D1A",
+        "surface": "#232a35",
+        "surface_glass": "rgba(16, 23, 42, 0.72)",
+        "border": "rgba(5, 213, 255, 0.35)",
+        "primary": "#00F2FE",
+        "primary_glow": "rgba(0, 242, 254, 0.45)",
+        "secondary": "#05D5FF",
+        "secondary_glow": "rgba(5, 213, 255, 0.45)",
+        "accent": "#00F2FE",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "22px",
+        "box_shadow": "0 8px 32px 0 rgba(0, 242, 254, 0.22)"
+      }
+    },
+    "LiquidGlassUltimate": {
+      "id": "LiquidGlassUltimate",
+      "name": "Liquid Glass Ultimate",
+      "category": "LinkVegas Community Overhauls",
+      "description": "Flagship translucent acrylic floating dock and blurred explorer",
+      "colors": {
+        "background": "#0A101D",
+        "surface": "#272c38",
+        "surface_glass": "rgba(20, 26, 45, 0.72)",
+        "border": "rgba(2, 132, 199, 0.35)",
+        "primary": "#38BDF8",
+        "primary_glow": "rgba(56, 189, 248, 0.45)",
+        "secondary": "#0284C7",
+        "secondary_glow": "rgba(2, 132, 199, 0.45)",
+        "accent": "#38BDF8",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "22px",
+        "box_shadow": "0 8px 32px 0 rgba(56, 189, 248, 0.22)"
+      }
+    },
+    "Macos27GoldenGateTheme": {
+      "id": "Macos27GoldenGateTheme",
+      "name": "macOS 27 Golden Gate Theme For Windows 11",
+      "category": "LinkVegas (Cupertino macOS Concept)",
+      "description": "LinkVegas Cupertino macOS Concept overhauls with #E4E4E7 accents.",
+      "colors": {
+        "background": "#18181B",
+        "surface": "#333336",
+        "surface_glass": "rgba(34, 34, 43, 0.72)",
+        "border": "rgba(82, 82, 91, 0.35)",
+        "primary": "#E4E4E7",
+        "primary_glow": "rgba(228, 228, 231, 0.45)",
+        "secondary": "#52525B",
+        "secondary_glow": "rgba(82, 82, 91, 0.45)",
+        "accent": "#E4E4E7",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "26px",
+        "box_shadow": "0 8px 32px 0 rgba(228, 228, 231, 0.22)"
+      }
+    },
+    "MacosBloomTheme": {
+      "id": "MacosBloomTheme",
+      "name": "macOS Bloom Theme For Windows 11",
+      "category": "LinkVegas (Cupertino macOS Concept)",
+      "description": "LinkVegas Cupertino macOS Concept overhauls with #E4E4E7 accents.",
+      "colors": {
+        "background": "#18181B",
+        "surface": "#333336",
+        "surface_glass": "rgba(34, 34, 43, 0.72)",
+        "border": "rgba(82, 82, 91, 0.35)",
+        "primary": "#E4E4E7",
+        "primary_glow": "rgba(228, 228, 231, 0.45)",
+        "secondary": "#52525B",
+        "secondary_glow": "rgba(82, 82, 91, 0.45)",
+        "accent": "#E4E4E7",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "26px",
+        "box_shadow": "0 8px 32px 0 rgba(228, 228, 231, 0.22)"
+      }
+    },
+    "MacosEleganceTheme": {
+      "id": "MacosEleganceTheme",
+      "name": "macOS Elegance Theme For Windows 11",
+      "category": "LinkVegas (Cupertino macOS Concept)",
+      "description": "LinkVegas Cupertino macOS Concept overhauls with #E4E4E7 accents.",
+      "colors": {
+        "background": "#18181B",
+        "surface": "#333336",
+        "surface_glass": "rgba(34, 34, 43, 0.72)",
+        "border": "rgba(82, 82, 91, 0.35)",
+        "primary": "#E4E4E7",
+        "primary_glow": "rgba(228, 228, 231, 0.45)",
+        "secondary": "#52525B",
+        "secondary_glow": "rgba(82, 82, 91, 0.45)",
+        "accent": "#E4E4E7",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "26px",
+        "box_shadow": "0 8px 32px 0 rgba(228, 228, 231, 0.22)"
+      }
+    },
+    "MacosInspiredDarkTheme": {
+      "id": "MacosInspiredDarkTheme",
+      "name": "macOS-Inspired Dark Theme For Windows 11",
+      "category": "LinkVegas (Cupertino macOS Concept)",
+      "description": "LinkVegas Cupertino macOS Concept overhauls with #E4E4E7 accents.",
+      "colors": {
+        "background": "#18181B",
+        "surface": "#333336",
+        "surface_glass": "rgba(34, 34, 43, 0.72)",
+        "border": "rgba(82, 82, 91, 0.35)",
+        "primary": "#E4E4E7",
+        "primary_glow": "rgba(228, 228, 231, 0.45)",
+        "secondary": "#52525B",
+        "secondary_glow": "rgba(82, 82, 91, 0.45)",
+        "accent": "#E4E4E7",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "26px",
+        "box_shadow": "0 8px 32px 0 rgba(228, 228, 231, 0.22)"
+      }
+    },
+    "macOSSequoia": {
+      "id": "macOSSequoia",
+      "name": "macOS Sequoia",
+      "category": "LinkVegas Community Overhauls",
+      "description": "Cupertino pill dock with soft rounded finder window borders",
+      "colors": {
+        "background": "#18181B",
+        "surface": "#333336",
+        "surface_glass": "rgba(34, 34, 43, 0.72)",
+        "border": "rgba(82, 82, 91, 0.35)",
+        "primary": "#E4E4E7",
+        "primary_glow": "rgba(228, 228, 231, 0.45)",
+        "secondary": "#52525B",
+        "secondary_glow": "rgba(82, 82, 91, 0.45)",
+        "accent": "#E4E4E7",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "26px",
+        "box_shadow": "0 8px 32px 0 rgba(228, 228, 231, 0.22)"
+      }
+    },
+    "MacosSequoiaInspiredTheme": {
+      "id": "MacosSequoiaInspiredTheme",
+      "name": "macOS Sequoia-Inspired Theme For Windows 11",
+      "category": "LinkVegas (Cupertino macOS Concept)",
+      "description": "LinkVegas Cupertino macOS Concept overhauls with #E4E4E7 accents.",
+      "colors": {
+        "background": "#18181B",
+        "surface": "#333336",
+        "surface_glass": "rgba(34, 34, 43, 0.72)",
+        "border": "rgba(82, 82, 91, 0.35)",
+        "primary": "#E4E4E7",
+        "primary_glow": "rgba(228, 228, 231, 0.45)",
+        "secondary": "#52525B",
+        "secondary_glow": "rgba(82, 82, 91, 0.45)",
+        "accent": "#E4E4E7",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "26px",
+        "box_shadow": "0 8px 32px 0 rgba(228, 228, 231, 0.22)"
+      }
+    },
+    "macOSTahoe": {
+      "id": "macOSTahoe",
+      "name": "macOS Tahoe Theme",
+      "category": "LinkVegas Community Overhauls",
+      "description": "Sleek Apple macOS Tahoe concept with translucent sapphire pill dock and acrylic tabs",
+      "colors": {
+        "background": "#071326",
+        "surface": "#242f40",
+        "surface_glass": "rgba(17, 29, 54, 0.72)",
+        "border": "rgba(56, 189, 248, 0.35)",
+        "primary": "#007AFF",
+        "primary_glow": "rgba(0, 122, 255, 0.45)",
+        "secondary": "#38BDF8",
+        "secondary_glow": "rgba(56, 189, 248, 0.45)",
+        "accent": "#007AFF",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "26px",
+        "box_shadow": "0 8px 32px 0 rgba(0, 122, 255, 0.22)"
+      }
+    },
+    "MacosTheme": {
+      "id": "MacosTheme",
+      "name": "macOS Theme for Windows 11",
+      "category": "LinkVegas (Cupertino macOS Concept)",
+      "description": "LinkVegas Cupertino macOS Concept overhauls with #E4E4E7 accents.",
+      "colors": {
+        "background": "#18181B",
+        "surface": "#333336",
+        "surface_glass": "rgba(34, 34, 43, 0.72)",
+        "border": "rgba(82, 82, 91, 0.35)",
+        "primary": "#E4E4E7",
+        "primary_glow": "rgba(228, 228, 231, 0.45)",
+        "secondary": "#52525B",
+        "secondary_glow": "rgba(82, 82, 91, 0.45)",
+        "accent": "#E4E4E7",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "26px",
+        "box_shadow": "0 8px 32px 0 rgba(228, 228, 231, 0.22)"
+      }
+    },
+    "MintauraTheme": {
+      "id": "MintauraTheme",
+      "name": "MintAura Theme For Windows 11",
+      "category": "LinkVegas (Emerald / Botanical)",
+      "description": "LinkVegas Emerald / Botanical overhauls with #10B981 accents.",
+      "colors": {
+        "background": "#05140C",
+        "surface": "#233029",
+        "surface_glass": "rgba(15, 30, 28, 0.72)",
+        "border": "rgba(52, 211, 153, 0.35)",
+        "primary": "#10B981",
+        "primary_glow": "rgba(16, 185, 129, 0.45)",
+        "secondary": "#34D399",
+        "secondary_glow": "rgba(52, 211, 153, 0.45)",
+        "accent": "#10B981",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "14px",
+        "box_shadow": "0 8px 32px 0 rgba(16, 185, 129, 0.22)"
+      }
+    },
+    "NebulaTheme": {
+      "id": "NebulaTheme",
+      "name": "Nebula Theme For Windows 11",
+      "category": "LinkVegas (Obsidian Slate Dark)",
+      "description": "LinkVegas Obsidian Slate Dark overhauls with #38BDF8 accents.",
+      "colors": {
+        "background": "#0B0F17",
+        "surface": "#282b32",
+        "surface_glass": "rgba(21, 25, 39, 0.72)",
+        "border": "rgba(30, 41, 59, 0.35)",
+        "primary": "#38BDF8",
+        "primary_glow": "rgba(56, 189, 248, 0.45)",
+        "secondary": "#1E293B",
+        "secondary_glow": "rgba(30, 41, 59, 0.45)",
+        "accent": "#38BDF8",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "12px",
+        "box_shadow": "0 8px 32px 0 rgba(56, 189, 248, 0.22)"
+      }
+    },
+    "NemoTheme": {
+      "id": "NemoTheme",
+      "name": "Nemo Theme For Windows 11",
+      "category": "LinkVegas (Obsidian Slate Dark)",
+      "description": "LinkVegas Obsidian Slate Dark overhauls with #38BDF8 accents.",
+      "colors": {
+        "background": "#0B0F17",
+        "surface": "#282b32",
+        "surface_glass": "rgba(21, 25, 39, 0.72)",
+        "border": "rgba(30, 41, 59, 0.35)",
+        "primary": "#38BDF8",
+        "primary_glow": "rgba(56, 189, 248, 0.45)",
+        "secondary": "#1E293B",
+        "secondary_glow": "rgba(30, 41, 59, 0.45)",
+        "accent": "#38BDF8",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "12px",
+        "box_shadow": "0 8px 32px 0 rgba(56, 189, 248, 0.22)"
+      }
+    },
+    "NeoDarkMinimalTheme": {
+      "id": "NeoDarkMinimalTheme",
+      "name": "Neo Dark Minimal Theme For Windows 11",
+      "category": "LinkVegas (Obsidian Slate Dark)",
+      "description": "LinkVegas Obsidian Slate Dark overhauls with #38BDF8 accents.",
+      "colors": {
+        "background": "#0B0F17",
+        "surface": "#282b32",
+        "surface_glass": "rgba(21, 25, 39, 0.72)",
+        "border": "rgba(30, 41, 59, 0.35)",
+        "primary": "#38BDF8",
+        "primary_glow": "rgba(56, 189, 248, 0.45)",
+        "secondary": "#1E293B",
+        "secondary_glow": "rgba(30, 41, 59, 0.45)",
+        "accent": "#38BDF8",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "12px",
+        "box_shadow": "0 8px 32px 0 rgba(56, 189, 248, 0.22)"
+      }
+    },
+    "NewArcticTheme": {
+      "id": "NewArcticTheme",
+      "name": "New Arctic Theme For Windows 11",
+      "category": "LinkVegas (Oceanic Deep Blue)",
+      "description": "LinkVegas Oceanic Deep Blue overhauls with #0284C7 accents.",
+      "colors": {
+        "background": "#040D1E",
+        "surface": "#222a39",
+        "surface_glass": "rgba(14, 23, 46, 0.72)",
+        "border": "rgba(56, 189, 248, 0.35)",
+        "primary": "#0284C7",
+        "primary_glow": "rgba(2, 132, 199, 0.45)",
+        "secondary": "#38BDF8",
+        "secondary_glow": "rgba(56, 189, 248, 0.45)",
+        "accent": "#0284C7",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "18px",
+        "box_shadow": "0 8px 32px 0 rgba(2, 132, 199, 0.22)"
+      }
+    },
+    "NewColorOsTheme": {
+      "id": "NewColorOsTheme",
+      "name": "New Color OS Theme For Windows 11",
+      "category": "LinkVegas (Pastel & Vibrant)",
+      "description": "LinkVegas Pastel & Vibrant overhauls with #F472B6 accents.",
+      "colors": {
+        "background": "#140A12",
+        "surface": "#30272e",
+        "surface_glass": "rgba(30, 20, 34, 0.72)",
+        "border": "rgba(236, 72, 153, 0.35)",
+        "primary": "#F472B6",
+        "primary_glow": "rgba(244, 114, 182, 0.45)",
+        "secondary": "#EC4899",
+        "secondary_glow": "rgba(236, 72, 153, 0.45)",
+        "accent": "#F472B6",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "20px",
+        "box_shadow": "0 8px 32px 0 rgba(244, 114, 182, 0.22)"
+      }
+    },
+    "NewMacosTahoeTheme": {
+      "id": "NewMacosTahoeTheme",
+      "name": "New macOS Tahoe Theme For Windows 11",
+      "category": "LinkVegas (Cupertino macOS Concept)",
+      "description": "LinkVegas Cupertino macOS Concept overhauls with #E4E4E7 accents.",
+      "colors": {
+        "background": "#18181B",
+        "surface": "#333336",
+        "surface_glass": "rgba(34, 34, 43, 0.72)",
+        "border": "rgba(82, 82, 91, 0.35)",
+        "primary": "#E4E4E7",
+        "primary_glow": "rgba(228, 228, 231, 0.45)",
+        "secondary": "#52525B",
+        "secondary_glow": "rgba(82, 82, 91, 0.45)",
+        "accent": "#E4E4E7",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "26px",
+        "box_shadow": "0 8px 32px 0 rgba(228, 228, 231, 0.22)"
+      }
+    },
+    "NewModernWindows11Theme": {
+      "id": "NewModernWindows11Theme",
+      "name": "New Modern Windows 11 Theme",
+      "category": "LinkVegas (Obsidian Slate Dark)",
+      "description": "LinkVegas Obsidian Slate Dark overhauls with #38BDF8 accents.",
+      "colors": {
+        "background": "#0B0F17",
+        "surface": "#282b32",
+        "surface_glass": "rgba(21, 25, 39, 0.72)",
+        "border": "rgba(30, 41, 59, 0.35)",
+        "primary": "#38BDF8",
+        "primary_glow": "rgba(56, 189, 248, 0.45)",
+        "secondary": "#1E293B",
+        "secondary_glow": "rgba(30, 41, 59, 0.45)",
+        "accent": "#38BDF8",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "12px",
+        "box_shadow": "0 8px 32px 0 rgba(56, 189, 248, 0.22)"
+      }
+    },
+    "NewWindroidTheme": {
+      "id": "NewWindroidTheme",
+      "name": "New Windroid Theme For Windows 11",
+      "category": "LinkVegas (Obsidian Slate Dark)",
+      "description": "LinkVegas Obsidian Slate Dark overhauls with #38BDF8 accents.",
+      "colors": {
+        "background": "#0B0F17",
+        "surface": "#282b32",
+        "surface_glass": "rgba(21, 25, 39, 0.72)",
+        "border": "rgba(30, 41, 59, 0.35)",
+        "primary": "#38BDF8",
+        "primary_glow": "rgba(56, 189, 248, 0.45)",
+        "secondary": "#1E293B",
+        "secondary_glow": "rgba(30, 41, 59, 0.45)",
+        "accent": "#38BDF8",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "12px",
+        "box_shadow": "0 8px 32px 0 rgba(56, 189, 248, 0.22)"
+      }
+    },
+    "NexaUiTheme": {
+      "id": "NexaUiTheme",
+      "name": "Nexa UI Theme for Windows 11",
+      "category": "LinkVegas (Obsidian Slate Dark)",
+      "description": "LinkVegas Obsidian Slate Dark overhauls with #38BDF8 accents.",
+      "colors": {
+        "background": "#0B0F17",
+        "surface": "#282b32",
+        "surface_glass": "rgba(21, 25, 39, 0.72)",
+        "border": "rgba(30, 41, 59, 0.35)",
+        "primary": "#38BDF8",
+        "primary_glow": "rgba(56, 189, 248, 0.45)",
+        "secondary": "#1E293B",
+        "secondary_glow": "rgba(30, 41, 59, 0.45)",
+        "accent": "#38BDF8",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "12px",
+        "box_shadow": "0 8px 32px 0 rgba(56, 189, 248, 0.22)"
+      }
+    },
+    "NextGenWindows11Theme": {
+      "id": "NextGenWindows11Theme",
+      "name": "Next-Gen Windows 11 Theme",
+      "category": "LinkVegas (Obsidian Slate Dark)",
+      "description": "LinkVegas Obsidian Slate Dark overhauls with #38BDF8 accents.",
+      "colors": {
+        "background": "#0B0F17",
+        "surface": "#282b32",
+        "surface_glass": "rgba(21, 25, 39, 0.72)",
+        "border": "rgba(30, 41, 59, 0.35)",
+        "primary": "#38BDF8",
+        "primary_glow": "rgba(56, 189, 248, 0.45)",
+        "secondary": "#1E293B",
+        "secondary_glow": "rgba(30, 41, 59, 0.45)",
+        "accent": "#38BDF8",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "12px",
+        "box_shadow": "0 8px 32px 0 rgba(56, 189, 248, 0.22)"
+      }
+    },
+    "NovaDarkBlue": {
+      "id": "NovaDarkBlue",
+      "name": "Nova Dark Blue",
+      "category": "LinkVegas Community Overhauls",
+      "description": "Deep cosmos dark navy with electric cobalt highlights",
+      "colors": {
+        "background": "#040914",
+        "surface": "#222630",
+        "surface_glass": "rgba(14, 19, 36, 0.72)",
+        "border": "rgba(29, 78, 216, 0.35)",
+        "primary": "#2563EB",
+        "primary_glow": "rgba(37, 99, 235, 0.45)",
+        "secondary": "#1D4ED8",
+        "secondary_glow": "rgba(29, 78, 216, 0.45)",
+        "accent": "#2563EB",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "12px",
+        "box_shadow": "0 8px 32px 0 rgba(37, 99, 235, 0.22)"
+      }
+    },
+    "NovaFuturisticDarkBlueExperienceTheme": {
+      "id": "NovaFuturisticDarkBlueExperienceTheme",
+      "name": "Nova Theme For Windows 11 \u2013 Ultimate Futuristic Dark Blue Experience",
+      "category": "LinkVegas (Oceanic Deep Blue)",
+      "description": "LinkVegas Oceanic Deep Blue overhauls with #0284C7 accents.",
+      "colors": {
+        "background": "#040D1E",
+        "surface": "#222a39",
+        "surface_glass": "rgba(14, 23, 46, 0.72)",
+        "border": "rgba(56, 189, 248, 0.35)",
+        "primary": "#0284C7",
+        "primary_glow": "rgba(2, 132, 199, 0.45)",
+        "secondary": "#38BDF8",
+        "secondary_glow": "rgba(56, 189, 248, 0.45)",
+        "accent": "#0284C7",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "18px",
+        "box_shadow": "0 8px 32px 0 rgba(2, 132, 199, 0.22)"
+      }
+    },
+    "NovaGlassTheme": {
+      "id": "NovaGlassTheme",
+      "name": "Nova Glass Theme for Windows 11",
+      "category": "LinkVegas (Translucent Glass UI)",
+      "description": "LinkVegas Translucent Glass UI overhauls with #00F2FE accents.",
+      "colors": {
+        "background": "#060D1A",
+        "surface": "#232a35",
+        "surface_glass": "rgba(16, 23, 42, 0.72)",
+        "border": "rgba(5, 213, 255, 0.35)",
+        "primary": "#00F2FE",
+        "primary_glow": "rgba(0, 242, 254, 0.45)",
+        "secondary": "#05D5FF",
+        "secondary_glow": "rgba(5, 213, 255, 0.45)",
+        "accent": "#00F2FE",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "22px",
+        "box_shadow": "0 8px 32px 0 rgba(0, 242, 254, 0.22)"
+      }
+    },
+    "OceanTheme": {
+      "id": "OceanTheme",
+      "name": "Ocean Theme For Windows 11",
+      "category": "LinkVegas (Oceanic Deep Blue)",
+      "description": "LinkVegas Oceanic Deep Blue overhauls with #0284C7 accents.",
+      "colors": {
+        "background": "#040D1E",
+        "surface": "#222a39",
+        "surface_glass": "rgba(14, 23, 46, 0.72)",
+        "border": "rgba(56, 189, 248, 0.35)",
+        "primary": "#0284C7",
+        "primary_glow": "rgba(2, 132, 199, 0.45)",
+        "secondary": "#38BDF8",
+        "secondary_glow": "rgba(56, 189, 248, 0.45)",
+        "accent": "#0284C7",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "18px",
+        "box_shadow": "0 8px 32px 0 rgba(2, 132, 199, 0.22)"
+      }
+    },
+    "OceanWaveTheme": {
+      "id": "OceanWaveTheme",
+      "name": "Ocean Wave Theme For Windows 11",
+      "category": "LinkVegas (Oceanic Deep Blue)",
+      "description": "LinkVegas Oceanic Deep Blue overhauls with #0284C7 accents.",
+      "colors": {
+        "background": "#040D1E",
+        "surface": "#222a39",
+        "surface_glass": "rgba(14, 23, 46, 0.72)",
+        "border": "rgba(56, 189, 248, 0.35)",
+        "primary": "#0284C7",
+        "primary_glow": "rgba(2, 132, 199, 0.45)",
+        "secondary": "#38BDF8",
+        "secondary_glow": "rgba(56, 189, 248, 0.45)",
+        "accent": "#0284C7",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "18px",
+        "box_shadow": "0 8px 32px 0 rgba(2, 132, 199, 0.22)"
+      }
+    },
+    "OrchidModernUiCustomizationTheme": {
+      "id": "OrchidModernUiCustomizationTheme",
+      "name": "Orchid Theme for Windows 11 \u2013 Modern UI Customization",
+      "category": "LinkVegas (Neon Violet / Purple)",
+      "description": "LinkVegas Neon Violet / Purple overhauls with #A855F7 accents.",
+      "colors": {
+        "background": "#0C0617",
+        "surface": "#292332",
+        "surface_glass": "rgba(22, 16, 39, 0.72)",
+        "border": "rgba(124, 58, 237, 0.35)",
+        "primary": "#A855F7",
+        "primary_glow": "rgba(168, 85, 247, 0.45)",
+        "secondary": "#7C3AED",
+        "secondary_glow": "rgba(124, 58, 237, 0.45)",
+        "accent": "#A855F7",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "16px",
+        "box_shadow": "0 8px 32px 0 rgba(168, 85, 247, 0.22)"
+      }
+    },
+    "OxygenTheme": {
+      "id": "OxygenTheme",
+      "name": "Oxygen Theme For Windows 11",
+      "category": "LinkVegas (Obsidian Slate Dark)",
+      "description": "LinkVegas Obsidian Slate Dark overhauls with #38BDF8 accents.",
+      "colors": {
+        "background": "#0B0F17",
+        "surface": "#282b32",
+        "surface_glass": "rgba(21, 25, 39, 0.72)",
+        "border": "rgba(30, 41, 59, 0.35)",
+        "primary": "#38BDF8",
+        "primary_glow": "rgba(56, 189, 248, 0.45)",
+        "secondary": "#1E293B",
+        "secondary_glow": "rgba(30, 41, 59, 0.45)",
+        "accent": "#38BDF8",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "12px",
+        "box_shadow": "0 8px 32px 0 rgba(56, 189, 248, 0.22)"
+      }
+    },
+    "PastelTheme": {
+      "id": "PastelTheme",
+      "name": "Pastel Theme For Windows 11",
+      "category": "LinkVegas (Pastel & Vibrant)",
+      "description": "LinkVegas Pastel & Vibrant overhauls with #F472B6 accents.",
+      "colors": {
+        "background": "#140A12",
+        "surface": "#30272e",
+        "surface_glass": "rgba(30, 20, 34, 0.72)",
+        "border": "rgba(236, 72, 153, 0.35)",
+        "primary": "#F472B6",
+        "primary_glow": "rgba(244, 114, 182, 0.45)",
+        "secondary": "#EC4899",
+        "secondary_glow": "rgba(236, 72, 153, 0.45)",
+        "accent": "#F472B6",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "20px",
+        "box_shadow": "0 8px 32px 0 rgba(244, 114, 182, 0.22)"
+      }
+    },
+    "PinkPineTheme": {
+      "id": "PinkPineTheme",
+      "name": "Pink Pine Theme For Windows 11",
+      "category": "LinkVegas (Pastel & Vibrant)",
+      "description": "LinkVegas Pastel & Vibrant overhauls with #F472B6 accents.",
+      "colors": {
+        "background": "#140A12",
+        "surface": "#30272e",
+        "surface_glass": "rgba(30, 20, 34, 0.72)",
+        "border": "rgba(236, 72, 153, 0.35)",
+        "primary": "#F472B6",
+        "primary_glow": "rgba(244, 114, 182, 0.45)",
+        "secondary": "#EC4899",
+        "secondary_glow": "rgba(236, 72, 153, 0.45)",
+        "accent": "#F472B6",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "20px",
+        "box_shadow": "0 8px 32px 0 rgba(244, 114, 182, 0.22)"
+      }
+    },
+    "PolarNightTheme": {
+      "id": "PolarNightTheme",
+      "name": "Polar Night Theme for Windows 11",
+      "category": "LinkVegas (Obsidian Slate Dark)",
+      "description": "LinkVegas Obsidian Slate Dark overhauls with #38BDF8 accents.",
+      "colors": {
+        "background": "#0B0F17",
+        "surface": "#282b32",
+        "surface_glass": "rgba(21, 25, 39, 0.72)",
+        "border": "rgba(30, 41, 59, 0.35)",
+        "primary": "#38BDF8",
+        "primary_glow": "rgba(56, 189, 248, 0.45)",
+        "secondary": "#1E293B",
+        "secondary_glow": "rgba(30, 41, 59, 0.45)",
+        "accent": "#38BDF8",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "12px",
+        "box_shadow": "0 8px 32px 0 rgba(56, 189, 248, 0.22)"
+      }
+    },
+    "RampageGaming": {
+      "id": "RampageGaming",
+      "name": "Rampage Gaming Theme",
+      "category": "LinkVegas Community Overhauls",
+      "description": "High-octane battlestation gaming theme with aggressive crimson neon highlights",
+      "colors": {
+        "background": "#0B0B10",
+        "surface": "#28282c",
+        "surface_glass": "rgba(21, 21, 32, 0.72)",
+        "border": "rgba(230, 0, 38, 0.35)",
+        "primary": "#FF1E42",
+        "primary_glow": "rgba(255, 30, 66, 0.45)",
+        "secondary": "#E60026",
+        "secondary_glow": "rgba(230, 0, 38, 0.45)",
+        "accent": "#FF1E42",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "8px",
+        "box_shadow": "0 8px 32px 0 rgba(255, 30, 66, 0.22)"
+      }
+    },
+    "RampageGamingTheme": {
+      "id": "RampageGamingTheme",
+      "name": "Amazing Rampage Gaming Theme For Windows 11",
+      "category": "LinkVegas (Aggressive Gaming)",
+      "description": "LinkVegas Aggressive Gaming overhauls with #FF1E42 accents.",
+      "colors": {
+        "background": "#0B0B10",
+        "surface": "#28282c",
+        "surface_glass": "rgba(21, 21, 32, 0.72)",
+        "border": "rgba(230, 0, 38, 0.35)",
+        "primary": "#FF1E42",
+        "primary_glow": "rgba(255, 30, 66, 0.45)",
+        "secondary": "#E60026",
+        "secondary_glow": "rgba(230, 0, 38, 0.45)",
+        "accent": "#FF1E42",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "8px",
+        "box_shadow": "0 8px 32px 0 rgba(255, 30, 66, 0.22)"
+      }
+    },
+    "RetroXPClassic": {
+      "id": "RetroXPClassic",
+      "name": "Windows XP Classic",
+      "category": "LinkVegas Community Overhauls",
+      "description": "Nostalgic Luna blue and silver classic layout",
+      "colors": {
+        "background": "#004E98",
+        "surface": "#1e63a4",
+        "surface_glass": "rgba(10, 88, 168, 0.72)",
+        "border": "rgba(255, 209, 102, 0.35)",
+        "primary": "#3A86FF",
+        "primary_glow": "rgba(58, 134, 255, 0.45)",
+        "secondary": "#FFD166",
+        "secondary_glow": "rgba(255, 209, 102, 0.45)",
+        "accent": "#3A86FF",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "4px",
+        "box_shadow": "0 8px 32px 0 rgba(58, 134, 255, 0.22)"
+      }
+    },
+    "RevengeTheme": {
+      "id": "RevengeTheme",
+      "name": "Revenge Theme For Windows 11",
+      "category": "LinkVegas (Aggressive Gaming)",
+      "description": "LinkVegas Aggressive Gaming overhauls with #FF1E42 accents.",
+      "colors": {
+        "background": "#0B0B10",
+        "surface": "#28282c",
+        "surface_glass": "rgba(21, 21, 32, 0.72)",
+        "border": "rgba(230, 0, 38, 0.35)",
+        "primary": "#FF1E42",
+        "primary_glow": "rgba(255, 30, 66, 0.45)",
+        "secondary": "#E60026",
+        "secondary_glow": "rgba(230, 0, 38, 0.45)",
+        "accent": "#FF1E42",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "8px",
+        "box_shadow": "0 8px 32px 0 rgba(255, 30, 66, 0.22)"
+      }
+    },
+    "SatinDark": {
+      "id": "SatinDark",
+      "name": "Satin Dark",
+      "category": "LinkVegas Community Overhauls",
+      "description": "Smooth obsidian slate matte dark theme for eye comfort",
+      "colors": {
+        "background": "#12151C",
+        "surface": "#2e3137",
+        "surface_glass": "rgba(28, 31, 44, 0.72)",
+        "border": "rgba(51, 65, 85, 0.35)",
+        "primary": "#94A3B8",
+        "primary_glow": "rgba(148, 163, 184, 0.45)",
+        "secondary": "#334155",
+        "secondary_glow": "rgba(51, 65, 85, 0.45)",
+        "accent": "#94A3B8",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "10px",
+        "box_shadow": "0 8px 32px 0 rgba(148, 163, 184, 0.22)"
+      }
+    },
+    "SatinDarkTheme": {
+      "id": "SatinDarkTheme",
+      "name": "Satin Dark Theme for Windows 11",
+      "category": "LinkVegas (Obsidian Slate Dark)",
+      "description": "LinkVegas Obsidian Slate Dark overhauls with #38BDF8 accents.",
+      "colors": {
+        "background": "#0B0F17",
+        "surface": "#282b32",
+        "surface_glass": "rgba(21, 25, 39, 0.72)",
+        "border": "rgba(30, 41, 59, 0.35)",
+        "primary": "#38BDF8",
+        "primary_glow": "rgba(56, 189, 248, 0.45)",
+        "secondary": "#1E293B",
+        "secondary_glow": "rgba(30, 41, 59, 0.45)",
+        "accent": "#38BDF8",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "12px",
+        "box_shadow": "0 8px 32px 0 rgba(56, 189, 248, 0.22)"
+      }
+    },
+    "ShadowMistTheme": {
+      "id": "ShadowMistTheme",
+      "name": "Shadow Mist Theme For Windows 11",
+      "category": "LinkVegas (Obsidian Slate Dark)",
+      "description": "LinkVegas Obsidian Slate Dark overhauls with #38BDF8 accents.",
+      "colors": {
+        "background": "#0B0F17",
+        "surface": "#282b32",
+        "surface_glass": "rgba(21, 25, 39, 0.72)",
+        "border": "rgba(30, 41, 59, 0.35)",
+        "primary": "#38BDF8",
+        "primary_glow": "rgba(56, 189, 248, 0.45)",
+        "secondary": "#1E293B",
+        "secondary_glow": "rgba(30, 41, 59, 0.45)",
+        "accent": "#38BDF8",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "12px",
+        "box_shadow": "0 8px 32px 0 rgba(56, 189, 248, 0.22)"
+      }
+    },
+    "Sweet2.0Theme": {
+      "id": "Sweet2.0Theme",
+      "name": "Sweet 2.0 Theme For Windows 11",
+      "category": "LinkVegas (Pastel & Vibrant)",
+      "description": "LinkVegas Pastel & Vibrant overhauls with #F472B6 accents.",
+      "colors": {
+        "background": "#140A12",
+        "surface": "#30272e",
+        "surface_glass": "rgba(30, 20, 34, 0.72)",
+        "border": "rgba(236, 72, 153, 0.35)",
+        "primary": "#F472B6",
+        "primary_glow": "rgba(244, 114, 182, 0.45)",
+        "secondary": "#EC4899",
+        "secondary_glow": "rgba(236, 72, 153, 0.45)",
+        "accent": "#F472B6",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "20px",
+        "box_shadow": "0 8px 32px 0 rgba(244, 114, 182, 0.22)"
+      }
+    },
+    "TheAorusGamingTheme": {
+      "id": "TheAorusGamingTheme",
+      "name": "The Aorus Gaming Theme for Windows 11",
+      "category": "LinkVegas (Aggressive Gaming)",
+      "description": "LinkVegas Aggressive Gaming overhauls with #FF1E42 accents.",
+      "colors": {
+        "background": "#0B0B10",
+        "surface": "#28282c",
+        "surface_glass": "rgba(21, 21, 32, 0.72)",
+        "border": "rgba(230, 0, 38, 0.35)",
+        "primary": "#FF1E42",
+        "primary_glow": "rgba(255, 30, 66, 0.45)",
+        "secondary": "#E60026",
+        "secondary_glow": "rgba(230, 0, 38, 0.45)",
+        "accent": "#FF1E42",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "8px",
+        "box_shadow": "0 8px 32px 0 rgba(255, 30, 66, 0.22)"
+      }
+    },
+    "TheElegantMacosTheme": {
+      "id": "TheElegantMacosTheme",
+      "name": "The Elegant macOS Theme for Windows 11",
+      "category": "LinkVegas (Cupertino macOS Concept)",
+      "description": "LinkVegas Cupertino macOS Concept overhauls with #E4E4E7 accents.",
+      "colors": {
+        "background": "#18181B",
+        "surface": "#333336",
+        "surface_glass": "rgba(34, 34, 43, 0.72)",
+        "border": "rgba(82, 82, 91, 0.35)",
+        "primary": "#E4E4E7",
+        "primary_glow": "rgba(228, 228, 231, 0.45)",
+        "secondary": "#52525B",
+        "secondary_glow": "rgba(82, 82, 91, 0.45)",
+        "accent": "#E4E4E7",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "26px",
+        "box_shadow": "0 8px 32px 0 rgba(228, 228, 231, 0.22)"
+      }
+    },
+    "VioletPulse": {
+      "id": "VioletPulse",
+      "name": "Violet Pulse",
+      "category": "LinkVegas Community Overhauls",
+      "description": "Cyberpunk violet neon pulse with centered dock styling",
+      "colors": {
+        "background": "#0D071E",
+        "surface": "#2a2439",
+        "surface_glass": "rgba(23, 17, 46, 0.72)",
+        "border": "rgba(124, 58, 237, 0.35)",
+        "primary": "#A855F7",
+        "primary_glow": "rgba(168, 85, 247, 0.45)",
+        "secondary": "#7C3AED",
+        "secondary_glow": "rgba(124, 58, 237, 0.45)",
+        "accent": "#A855F7",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "16px",
+        "box_shadow": "0 8px 32px 0 rgba(168, 85, 247, 0.22)"
+      }
+    },
+    "VioletPulseAndWindhawkModsTheme": {
+      "id": "VioletPulseAndWindhawkModsTheme",
+      "name": "Violet Pulse Theme and Windhawk Mods for Windows 11",
+      "category": "LinkVegas (Neon Violet / Purple)",
+      "description": "LinkVegas Neon Violet / Purple overhauls with #A855F7 accents.",
+      "colors": {
+        "background": "#0C0617",
+        "surface": "#292332",
+        "surface_glass": "rgba(22, 16, 39, 0.72)",
+        "border": "rgba(124, 58, 237, 0.35)",
+        "primary": "#A855F7",
+        "primary_glow": "rgba(168, 85, 247, 0.45)",
+        "secondary": "#7C3AED",
+        "secondary_glow": "rgba(124, 58, 237, 0.45)",
+        "accent": "#A855F7",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "16px",
+        "box_shadow": "0 8px 32px 0 rgba(168, 85, 247, 0.22)"
+      }
+    },
+    "Windows11AcrylicGlassTheme": {
+      "id": "Windows11AcrylicGlassTheme",
+      "name": "Windows 11 Acrylic Glass Theme",
+      "category": "LinkVegas (Translucent Glass UI)",
+      "description": "LinkVegas Translucent Glass UI overhauls with #00F2FE accents.",
+      "colors": {
+        "background": "#060D1A",
+        "surface": "#232a35",
+        "surface_glass": "rgba(16, 23, 42, 0.72)",
+        "border": "rgba(5, 213, 255, 0.35)",
+        "primary": "#00F2FE",
+        "primary_glow": "rgba(0, 242, 254, 0.45)",
+        "secondary": "#05D5FF",
+        "secondary_glow": "rgba(5, 213, 255, 0.45)",
+        "accent": "#00F2FE",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "22px",
+        "box_shadow": "0 8px 32px 0 rgba(0, 242, 254, 0.22)"
+      }
+    },
+    "Windows11FullTransparentTheme": {
+      "id": "Windows11FullTransparentTheme",
+      "name": "Windows 11 Full Transparent Theme",
+      "category": "LinkVegas (Translucent Glass UI)",
+      "description": "LinkVegas Translucent Glass UI overhauls with #00F2FE accents.",
+      "colors": {
+        "background": "#060D1A",
+        "surface": "#232a35",
+        "surface_glass": "rgba(16, 23, 42, 0.72)",
+        "border": "rgba(5, 213, 255, 0.35)",
+        "primary": "#00F2FE",
+        "primary_glow": "rgba(0, 242, 254, 0.45)",
+        "secondary": "#05D5FF",
+        "secondary_glow": "rgba(5, 213, 255, 0.45)",
+        "accent": "#00F2FE",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "22px",
+        "box_shadow": "0 8px 32px 0 rgba(0, 242, 254, 0.22)"
+      }
+    },
+    "Windows12Concept": {
+      "id": "Windows12Concept",
+      "name": "Windows 12 Concept",
+      "category": "LinkVegas Community Overhauls",
+      "description": "Floating centered island taskbar with subtle backdrop drop-shadow",
+      "colors": {
+        "background": "#0F172A",
+        "surface": "#2b3243",
+        "surface_glass": "rgba(25, 33, 58, 0.72)",
+        "border": "rgba(30, 41, 59, 0.35)",
+        "primary": "#38BDF8",
+        "primary_glow": "rgba(56, 189, 248, 0.45)",
+        "secondary": "#1E293B",
+        "secondary_glow": "rgba(30, 41, 59, 0.45)",
+        "accent": "#38BDF8",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "24px",
+        "box_shadow": "0 8px 32px 0 rgba(56, 189, 248, 0.22)"
+      }
+    },
+    "Windows12InspiredTheme": {
+      "id": "Windows12InspiredTheme",
+      "name": "Windows 12 Inspired Theme for Windows 11",
+      "category": "LinkVegas (Obsidian Slate Dark)",
+      "description": "LinkVegas Obsidian Slate Dark overhauls with #38BDF8 accents.",
+      "colors": {
+        "background": "#0B0F17",
+        "surface": "#282b32",
+        "surface_glass": "rgba(21, 25, 39, 0.72)",
+        "border": "rgba(30, 41, 59, 0.35)",
+        "primary": "#38BDF8",
+        "primary_glow": "rgba(56, 189, 248, 0.45)",
+        "secondary": "#1E293B",
+        "secondary_glow": "rgba(30, 41, 59, 0.45)",
+        "accent": "#38BDF8",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "12px",
+        "box_shadow": "0 8px 32px 0 rgba(56, 189, 248, 0.22)"
+      }
+    },
+    "Windows7ModernTheme": {
+      "id": "Windows7ModernTheme",
+      "name": "Windows 7 Modern Theme For Windows 11",
+      "category": "LinkVegas (Classic Windows Retro)",
+      "description": "LinkVegas Classic Windows Retro overhauls with #3B82F6 accents.",
+      "colors": {
+        "background": "#0A246A",
+        "surface": "#273e7b",
+        "surface_glass": "rgba(20, 46, 122, 0.72)",
+        "border": "rgba(96, 165, 250, 0.35)",
+        "primary": "#3B82F6",
+        "primary_glow": "rgba(59, 130, 246, 0.45)",
+        "secondary": "#60A5FA",
+        "secondary_glow": "rgba(96, 165, 250, 0.45)",
+        "accent": "#3B82F6",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "6px",
+        "box_shadow": "0 8px 32px 0 rgba(59, 130, 246, 0.22)"
+      }
+    },
+    "Windows7Theme": {
+      "id": "Windows7Theme",
+      "name": "Windows 7 Theme For Windows 11",
+      "category": "LinkVegas (Classic Windows Retro)",
+      "description": "LinkVegas Classic Windows Retro overhauls with #3B82F6 accents.",
+      "colors": {
+        "background": "#0A246A",
+        "surface": "#273e7b",
+        "surface_glass": "rgba(20, 46, 122, 0.72)",
+        "border": "rgba(96, 165, 250, 0.35)",
+        "primary": "#3B82F6",
+        "primary_glow": "rgba(59, 130, 246, 0.45)",
+        "secondary": "#60A5FA",
+        "secondary_glow": "rgba(96, 165, 250, 0.45)",
+        "accent": "#3B82F6",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "6px",
+        "box_shadow": "0 8px 32px 0 rgba(59, 130, 246, 0.22)"
+      }
+    },
+    "WindowsVistaInspiredTheme": {
+      "id": "WindowsVistaInspiredTheme",
+      "name": "Windows Vista Inspired Theme For Windows 11",
+      "category": "LinkVegas (Classic Windows Retro)",
+      "description": "LinkVegas Classic Windows Retro overhauls with #3B82F6 accents.",
+      "colors": {
+        "background": "#0A246A",
+        "surface": "#273e7b",
+        "surface_glass": "rgba(20, 46, 122, 0.72)",
+        "border": "rgba(96, 165, 250, 0.35)",
+        "primary": "#3B82F6",
+        "primary_glow": "rgba(59, 130, 246, 0.45)",
+        "secondary": "#60A5FA",
+        "secondary_glow": "rgba(96, 165, 250, 0.45)",
+        "accent": "#3B82F6",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "6px",
+        "box_shadow": "0 8px 32px 0 rgba(59, 130, 246, 0.22)"
+      }
+    },
+    "WindowsXpClassicTheme": {
+      "id": "WindowsXpClassicTheme",
+      "name": "Windows Xp Classic Theme For Windows 11",
+      "category": "LinkVegas (Classic Windows Retro)",
+      "description": "LinkVegas Classic Windows Retro overhauls with #3B82F6 accents.",
+      "colors": {
+        "background": "#0A246A",
+        "surface": "#273e7b",
+        "surface_glass": "rgba(20, 46, 122, 0.72)",
+        "border": "rgba(96, 165, 250, 0.35)",
+        "primary": "#3B82F6",
+        "primary_glow": "rgba(59, 130, 246, 0.45)",
+        "secondary": "#60A5FA",
+        "secondary_glow": "rgba(96, 165, 250, 0.45)",
+        "accent": "#3B82F6",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "6px",
+        "box_shadow": "0 8px 32px 0 rgba(59, 130, 246, 0.22)"
+      }
+    },
+    "WindroidTheme": {
+      "id": "WindroidTheme",
+      "name": "Windroid Theme for Windows 11",
+      "category": "LinkVegas (Obsidian Slate Dark)",
+      "description": "LinkVegas Obsidian Slate Dark overhauls with #38BDF8 accents.",
+      "colors": {
+        "background": "#0B0F17",
+        "surface": "#282b32",
+        "surface_glass": "rgba(21, 25, 39, 0.72)",
+        "border": "rgba(30, 41, 59, 0.35)",
+        "primary": "#38BDF8",
+        "primary_glow": "rgba(56, 189, 248, 0.45)",
+        "secondary": "#1E293B",
+        "secondary_glow": "rgba(30, 41, 59, 0.45)",
+        "accent": "#38BDF8",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "12px",
+        "box_shadow": "0 8px 32px 0 rgba(56, 189, 248, 0.22)"
+      }
+    },
+    "Winos2.0Theme": {
+      "id": "Winos2.0Theme",
+      "name": "WinOS 2.0 Theme for Windows 11",
+      "category": "LinkVegas (Obsidian Slate Dark)",
+      "description": "LinkVegas Obsidian Slate Dark overhauls with #38BDF8 accents.",
+      "colors": {
+        "background": "#0B0F17",
+        "surface": "#282b32",
+        "surface_glass": "rgba(21, 25, 39, 0.72)",
+        "border": "rgba(30, 41, 59, 0.35)",
+        "primary": "#38BDF8",
+        "primary_glow": "rgba(56, 189, 248, 0.45)",
+        "secondary": "#1E293B",
+        "secondary_glow": "rgba(30, 41, 59, 0.45)",
+        "accent": "#38BDF8",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "12px",
+        "box_shadow": "0 8px 32px 0 rgba(56, 189, 248, 0.22)"
+      }
+    },
+    "WinosV2Theme": {
+      "id": "WinosV2Theme",
+      "name": "WinOS v2 Theme For Windows 11",
+      "category": "LinkVegas (Obsidian Slate Dark)",
+      "description": "LinkVegas Obsidian Slate Dark overhauls with #38BDF8 accents.",
+      "colors": {
+        "background": "#0B0F17",
+        "surface": "#282b32",
+        "surface_glass": "rgba(21, 25, 39, 0.72)",
+        "border": "rgba(30, 41, 59, 0.35)",
+        "primary": "#38BDF8",
+        "primary_glow": "rgba(56, 189, 248, 0.45)",
+        "secondary": "#1E293B",
+        "secondary_glow": "rgba(30, 41, 59, 0.45)",
+        "accent": "#38BDF8",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "12px",
+        "box_shadow": "0 8px 32px 0 rgba(56, 189, 248, 0.22)"
+      }
+    },
+    "XeonTheme": {
+      "id": "XeonTheme",
+      "name": "Xeon Theme For Windows 11",
+      "category": "LinkVegas (Obsidian Slate Dark)",
+      "description": "LinkVegas Obsidian Slate Dark overhauls with #38BDF8 accents.",
+      "colors": {
+        "background": "#0B0F17",
+        "surface": "#282b32",
+        "surface_glass": "rgba(21, 25, 39, 0.72)",
+        "border": "rgba(30, 41, 59, 0.35)",
+        "primary": "#38BDF8",
+        "primary_glow": "rgba(56, 189, 248, 0.45)",
+        "secondary": "#1E293B",
+        "secondary_glow": "rgba(30, 41, 59, 0.45)",
+        "accent": "#38BDF8",
+        "text": "#f8fafc",
+        "text_muted": "#94a3b8",
+        "text_dark": "#0f172a"
+      },
+      "effects": {
+        "blur": "18px",
+        "radius": "12px",
+        "box_shadow": "0 8px 32px 0 rgba(56, 189, 248, 0.22)"
+      }
+    }
+  }
+}

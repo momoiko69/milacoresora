@@ -1,0 +1,12 @@
+{
+  "Id": "Windows11FullTransparentTheme",
+  "Name": "Windows 11 Full Transparent Theme",
+  "Category": "LinkVegas (Translucent Glass UI)",
+  "Url": "https://www.linkvegastheme.com/windows-11-full-transparent-theme/",
+  "Background": "#060D1A",
+  "Accent": "#00F2FE",
+  "Border": "#05D5FF",
+  "CornerRadius": 22,
+  "IsFloating": true,
+  "Description": "LinkVegas Translucent Glass UI overhauls with #00F2FE accents."
+}

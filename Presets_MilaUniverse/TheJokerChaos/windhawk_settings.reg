@@ -1,0 +1,18 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Windhawk\Engine\Mods\windows-11-taskbar-styler\Settings]
+"taskbarHeight"=dword:00000030
+"taskbarRadius"=dword:0000000e
+"taskbarBackground"="#0A0412"
+"accentColor"="#6A0DAD"
+"borderColor"="#00A86B"
+"isFloating"="true"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Windhawk\Engine\Mods\windows-11-file-explorer-styler\Settings]
+"acrylicTabs"=dword:00000001
+"glassBackground"="#0A0412"
+"tabAccent"="#6A0DAD"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Windhawk\Engine\Mods\translucent-windows\Settings]
+"transparencyType"=dword:00000002
+"blurOpacity"=dword:00000050
