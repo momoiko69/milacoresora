@@ -29,8 +29,9 @@ for s in (sys.stdout, sys.stderr):
         pass
 
 PROJECT_DIR = Path(__file__).resolve().parent
-GEMINI_ROOT = PROJECT_DIR.parent
-HUB_OUTBOX_DIR = GEMINI_ROOT / "MilaCoreHub" / "MilaOutbox"
+HUB_OUTBOX_DIR = PROJECT_DIR.parent / "hub" / "MilaOutbox"
+if not HUB_OUTBOX_DIR.exists():
+    HUB_OUTBOX_DIR = PROJECT_DIR.parent.parent / "MilaCoreHub" / "MilaOutbox"
 
 
 def hex_to_rgb(hex_str: str, default: Tuple[int, int, int] = (15, 17, 26)) -> Tuple[int, int, int]:

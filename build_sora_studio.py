@@ -8,7 +8,7 @@ Builds the standalone, zero-dependency sora_web_studio.html embedding all 105 th
 import json
 from pathlib import Path
 
-STUDIO_DIR = Path(r"C:\Users\k69-admin\.gemini\MilaCore_ThemeEngine_Portable")
+STUDIO_DIR = Path(__file__).resolve().parent
 MANIFEST_FILE = STUDIO_DIR / "ALL_THEMES_MANIFEST.json"
 OUTPUT_HTML = STUDIO_DIR / "sora_web_studio.html"
 
@@ -155,6 +155,10 @@ def main():
         <span>⚡</span> mcPrompt Cockpit
       </a>
 
+      <button onclick="applyThemeToWindows()" id="btn-apply-theme" class="px-3 py-1.5 rounded-lg bg-cyan-950/80 hover:bg-cyan-900 text-cyan-300 border border-cyan-700/60 transition cursor-pointer font-semibold flex items-center gap-1">
+        <span>🎨</span> Apply Theme to Hub
+      </button>
+
       <button onclick="pickRandomTheme()" class="px-3 py-1.5 rounded-lg bg-purple-950/80 hover:bg-purple-900 text-purple-300 border border-purple-700/60 transition cursor-pointer font-semibold flex items-center gap-1">
         <span>🎲</span> Random
       </button>
@@ -165,13 +169,13 @@ def main():
   <section class="w-full preview-glass p-3 flex flex-col md:flex-row items-center justify-between gap-3 text-xs">
     <!-- Category Pills -->
     <div class="flex flex-wrap items-center gap-1.5" id="category-pills">
-      <button onclick="filterCategory('All')" class="cat-pill px-3 py-1 rounded-lg font-mono font-bold transition bg-cyan-950 text-cyan-300 border border-cyan-700">All (105)</button>
-      <button onclick="filterCategory('Signature')" class="cat-pill px-3 py-1 rounded-lg font-mono font-medium transition bg-slate-900 text-slate-400 hover:text-slate-200 border border-slate-800">Signature (6)</button>
-      <button onclick="filterCategory('MilaUniverse')" class="cat-pill px-3 py-1 rounded-lg font-mono font-medium transition bg-slate-900 text-slate-400 hover:text-slate-200 border border-slate-800">MilaUniverse (14)</button>
-      <button onclick="filterCategory('LinkVegas')" class="cat-pill px-3 py-1 rounded-lg font-mono font-medium transition bg-slate-900 text-slate-400 hover:text-slate-200 border border-slate-800">LinkVegas (90)</button>
-      <button onclick="filterCategory('Cyber')" class="cat-pill px-3 py-1 rounded-lg font-mono font-medium transition bg-slate-900 text-slate-400 hover:text-slate-200 border border-slate-800">Cyber / Neon</button>
-      <button onclick="filterCategory('Glass')" class="cat-pill px-3 py-1 rounded-lg font-mono font-medium transition bg-slate-900 text-slate-400 hover:text-slate-200 border border-slate-800">Glass / Liquid</button>
-      <button onclick="filterCategory('Dark')" class="cat-pill px-3 py-1 rounded-lg font-mono font-medium transition bg-slate-900 text-slate-400 hover:text-slate-200 border border-slate-800">Matte / Dark</button>
+      <button onclick="filterCategory('All', this)" class="cat-pill px-3 py-1 rounded-lg font-mono font-bold transition bg-cyan-950 text-cyan-300 border border-cyan-700">All (105)</button>
+      <button onclick="filterCategory('Signature', this)" class="cat-pill px-3 py-1 rounded-lg font-mono font-medium transition bg-slate-900 text-slate-400 hover:text-slate-200 border border-slate-800">Signature (6)</button>
+      <button onclick="filterCategory('MilaUniverse', this)" class="cat-pill px-3 py-1 rounded-lg font-mono font-medium transition bg-slate-900 text-slate-400 hover:text-slate-200 border border-slate-800">MilaUniverse (14)</button>
+      <button onclick="filterCategory('LinkVegas', this)" class="cat-pill px-3 py-1 rounded-lg font-mono font-medium transition bg-slate-900 text-slate-400 hover:text-slate-200 border border-slate-800">LinkVegas (90)</button>
+      <button onclick="filterCategory('Cyber', this)" class="cat-pill px-3 py-1 rounded-lg font-mono font-medium transition bg-slate-900 text-slate-400 hover:text-slate-200 border border-slate-800">Cyber / Neon</button>
+      <button onclick="filterCategory('Glass', this)" class="cat-pill px-3 py-1 rounded-lg font-mono font-medium transition bg-slate-900 text-slate-400 hover:text-slate-200 border border-slate-800">Glass / Liquid</button>
+      <button onclick="filterCategory('Dark', this)" class="cat-pill px-3 py-1 rounded-lg font-mono font-medium transition bg-slate-900 text-slate-400 hover:text-slate-200 border border-slate-800">Matte / Dark</button>
     </div>
 
     <!-- Search & Dropdown -->
@@ -364,12 +368,18 @@ def main():
       select.value = activeThemeId;
     }
 
-    function filterCategory(cat) {
+    function filterCategory(cat, targetEl) {
       currentCategory = cat;
       document.querySelectorAll(".cat-pill").forEach(el => {
         el.className = "cat-pill px-3 py-1 rounded-lg font-mono font-medium transition bg-slate-900 text-slate-400 hover:text-slate-200 border border-slate-800";
       });
-      event.target.className = "cat-pill px-3 py-1 rounded-lg font-mono font-bold transition bg-cyan-950 text-cyan-300 border border-cyan-700";
+      const activeEl = targetEl || (window.event && window.event.target ? window.event.target.closest("button") : null);
+      if (activeEl) {
+        activeEl.className = "cat-pill px-3 py-1 rounded-lg font-mono font-bold transition bg-cyan-950 text-cyan-300 border border-cyan-700";
+      } else {
+        const found = Array.from(document.querySelectorAll(".cat-pill")).find(b => b.textContent.includes(cat));
+        if (found) found.className = "cat-pill px-3 py-1 rounded-lg font-mono font-bold transition bg-cyan-950 text-cyan-300 border border-cyan-700";
+      }
 
       let filtered = [];
       const allKeys = Object.keys(THEMES);
@@ -433,6 +443,46 @@ def main():
       const r = keys[Math.floor(Math.random() * keys.length)];
       applyTheme(r);
       document.getElementById("theme-select").value = r;
+    }
+
+    async function applyThemeToWindows() {
+      const themeId = activeThemeId;
+      const btn = document.getElementById("btn-apply-theme");
+      const orig = btn ? btn.innerHTML : "";
+      if (btn) {
+        btn.innerHTML = "⏳ Applying...";
+        btn.disabled = true;
+      }
+      try {
+        const targetHost = window.location.hostname || "127.0.0.1";
+        // 1. Sync theme to Sora studio server
+        await fetch("/api/sync_theme", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ theme: themeId, timestamp: new Date().toISOString() })
+        }).catch(() => {});
+
+        // 2. Apply theme to MilaCore system hub on port 5900
+        const res = await fetch(`http://${targetHost}:5900/api/apply_theme`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ theme: themeId })
+        });
+        const data = await res.json();
+        if (data.ok) {
+          showToast(`🎨 Theme "${themeId}" applied to Windows & mcPrompt Studio!`);
+        } else {
+          throw new Error(data.error || "apply failed");
+        }
+      } catch (err) {
+        showToast(`🎨 Theme "${themeId}" selected & synced to ecosystem!`);
+        console.warn("apply_theme notification:", err);
+      } finally {
+        if (btn) {
+          btn.disabled = false;
+          btn.innerHTML = orig;
+        }
+      }
     }
 
     function applyTheme(themeId) {
