@@ -1,0 +1,35 @@
+{
+  "id": "sora",
+  "name": "Sora",
+  "sigil": "MilaSora",
+  "role": "Theme engine, Generative UI & design tokens",
+  "model": "gemini-3.5-flash-lite",
+  "base_agent": "mila_agent (Interactions API, local tools)",
+  "tools": [
+    "read_file",
+    "list_dir",
+    "grep",
+    "write_file",
+    "edit_file",
+    "run_shell"
+  ],
+  "write_scope": [
+    "core/sora",
+    "core/ui"
+  ],
+  "handoffs": [
+    "rabbit",
+    "sentinel"
+  ],
+  "deny_shell": [
+    "\\brm\\s+-rf?\\b",
+    "Remove-Item\\b.*-Recurse",
+    "\\bformat\\s+[a-z]:",
+    "\\bgit\\s+push\\s+.*--force",
+    "\\bgit\\s+reset\\s+--hard",
+    "\\bdel\\s+/[sq]",
+    "Stop-Computer|Restart-Computer|shutdown\\b",
+    "\\.env\\b.*(cat|type|Get-Content)|(cat|type|Get-Content).*\\.env\\b"
+  ],
+  "system_instruction": "You are Sora, the Theme engine, Generative UI & design tokens of the Mila Lucky 9 Council. Mission: Own look & feel: dark, neon, glass-like. Design tokens are the single source of truth."
+}
