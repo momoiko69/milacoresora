@@ -92,9 +92,15 @@ class SoraStudioHandler(SimpleHTTPRequestHandler):
 
 
 def run_server():
+    if sys.platform == "win32":
+        try:
+            sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+            sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+        except Exception:
+            pass
     server_address = ("0.0.0.0", PORT)
     httpd = ThreadingHTTPServer(server_address, SoraStudioHandler)
-    print(f"🎨 Sora Theme Studio running on http://127.0.0.1:{PORT} and http://milacore.ai:{PORT}")
+    print(f"[Sora] Theme Studio running on http://127.0.0.1:{PORT} and http://milacore.ai:{PORT}")
     try:
         httpd.serve_forever()
     except KeyboardInterrupt:
