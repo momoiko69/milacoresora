@@ -679,5 +679,47 @@ def main():
         engine.stream_to_hub_outbox(summary)
 
 
+def _wcag_luminance(rgb: Tuple[int, int, int]) -> float:
+    def _lin(c: int) -> float:
+        s = max(0.0, min(1.0, c / 255.0))
+        return s / 12.92 if s <= 0.03928 else ((s + 0.055) / 1.055) ** 2.4
+
+    r, g, b = rgb
+    return 0.2126 * _lin(r) + 0.7152 * _lin(g) + 0.0722 * _lin(b)
+
+
+def contrast_ratio(hex_fg: str, hex_bg: str) -> float:
+    l1 = _wcag_luminance(hex_to_rgb(hex_fg))
+    l2 = _wcag_luminance(hex_to_rgb(hex_bg))
+    hi, lo = max(l1, l2), min(l1, l2)
+    return round((hi + 0.05) / (lo + 0.05), 2)
+
+
+def audit_theme_contrast(theme_key: str = "ObsidianNeon") -> Dict[str, Any]:
+    """Audit WCAG contrast ratios (>= 4.5:1 AA) for a Sora theme and return token summary."""
+    engine = SoraThemeEngine()
+    theme = engine.get_theme_tokens(theme_key)
+    colors = dict(theme.get("colors") or {})
+    bg = str(colors.get("background") or "#0a0b10")
+    surf = str(colors.get("surface") or "#121420")
+    fg = str(colors.get("text") or "#f8fafc")
+    muted = str(colors.get("text_muted") or "#94a3b8")
+    primary = str(colors.get("primary") or "#a855f7")
+    checks = {
+        "text_on_background": contrast_ratio(fg, bg),
+        "text_on_surface": contrast_ratio(fg, surf),
+        "muted_on_background": contrast_ratio(muted, bg),
+        "primary_on_background": contrast_ratio(primary, bg),
+    }
+    return {
+        "ok": True,
+        "theme_id": theme_key,
+        "name": theme.get("name", theme_key),
+        "wcag_aa_body_pass": checks["text_on_background"] >= 4.5 and checks["text_on_surface"] >= 4.5,
+        "contrast_ratios": checks,
+        "colors": colors,
+    }
+
+
 if __name__ == "__main__":
     main()

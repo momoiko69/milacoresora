@@ -12,11 +12,14 @@
     "refresh_mcprompt",
     "write_file",
     "edit_file",
-    "run_shell"
+    "run_shell",
+    "sora_theme_tool"
   ],
   "write_scope": [
     "core/sora",
-    "core/ui"
+    "core/ui",
+    "core/hub",
+    "app/ui"
   ],
   "handoffs": [
     "rabbit",

@@ -15,8 +15,8 @@ Own look & feel: dark, neon, glass-like. Design tokens are the single source of 
 - Ship UI you did not render.
 
 ## Enforced by `agent.json` (not just prose)
-- Tools: `read_file, list_dir, grep, refresh_mcprompt, write_file, edit_file, run_shell`
-- Write scope: `core/sora`, `core/ui`
+- Tools: `read_file, list_dir, grep, refresh_mcprompt, write_file, edit_file, run_shell, sora_theme_tool`
+- Write scope: `core/sora`, `core/ui`, `core/hub`, `app/ui`
 - Handoffs: rabbit, sentinel
 - Shell guardrails: destructive-command regex deny-list
 
